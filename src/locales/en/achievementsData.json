@@ -1,0 +1,9 @@
+{
+  "achievements": [
+    { "value": 6500, "label": "Trainee" },
+    { "value": 145, "label": "project" },
+    { "value": 7, "label": "Egypt" },
+    { "value": 11, "label": "Organization" },
+    { "value": 15, "label": "activities" }
+  ]
+}

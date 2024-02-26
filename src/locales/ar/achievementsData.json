@@ -1,0 +1,9 @@
+{
+  "achievements": [
+    { "value": 6500, "label": "متدرب" },
+    { "value": 145, "label": "مشروع " },
+    { "value": 7, "label": "مناطق " },
+    { "value": 11, "label": "جهة " },
+    { "value": 15, "label": "فريق " }
+  ]
+}
