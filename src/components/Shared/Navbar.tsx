@@ -35,7 +35,7 @@ const Navbar = () => {
       </Link>
       <div className=' h-full  text-lg md:text-2xl hidden sm:flex '>
         {menuKeys.map((key) => (
-          <Link key={key} to={key == 'home' ? '/' : `/${key}`} className='flex items-center  px-4 h-full '>
+          <Link key={key} to={key == 'home' ? '/' : `/${key}`} className='flex items-center  px-4 h-full hover:opacity-70  '>
             {t(`menu.${key}`)}
           </Link>
         ))}
