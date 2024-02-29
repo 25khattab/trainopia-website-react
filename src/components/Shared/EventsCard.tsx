@@ -5,7 +5,7 @@ const EventsCard = () => {
   const [active, setActive] = useState(false);
   return (
     <div
-      className='h-64 w-[80vw] md:w-[40vw] relative flex felx-col items-center mt-10 mx-5'
+      className='h-64 w-[80vw] md:w-[40vw] lg:w-[30vw] relative flex felx-col items-center mt-10 mx-5'
       onMouseEnter={() => setActive((prev) => !prev)}
       onMouseLeave={() => setActive((prev) => !prev)}
     >

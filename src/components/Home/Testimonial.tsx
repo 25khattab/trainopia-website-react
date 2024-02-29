@@ -13,9 +13,9 @@ const Testimonial = () => {
             delay: 2000,
           }),
         ]}
-        opts={{ loop: true, duration: 50, direction: language ? 'rtl' : 'ltr' }}
+        opts={{ loop: true, duration: 20, direction: language ? 'rtl' : 'ltr' }}
       >
-        <CarouselContent className=''>
+        <CarouselContent>
           <CarouselItem className='md:basis-1/2 lg:basis-1/3'>
             <TestomonialCard />
           </CarouselItem>

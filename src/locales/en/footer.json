@@ -1,0 +1,7 @@
+{
+  "title": "Trainopia",
+  "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, esse labore, explicabo nesciunt iure doloremque voluptate officiis ducimus illo doloribus iste eos? Adipisci magnam soluta harum nihil, veniam beatae optio.",
+  "browse": { "home": "Home", "aboutus": "About Us", "activities": "Activities", "images": "Images" },
+  "services": ["service1", "service2", "service3", "service4"],
+  "contactUs": ["Location", "nourkhaled2650@gmail.com", "+201126507835"]
+}

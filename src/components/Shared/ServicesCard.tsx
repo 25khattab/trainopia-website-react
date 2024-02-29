@@ -7,7 +7,7 @@ const ServicesCard = () => {
   return (
     <Link
       to='/services/title'
-      className='relative md:w-[40vw] w-[80vw] h-[18rem] lg:h-56 bg-yellow-600 rounded-3xl m-5 '
+      className='relative md:w-[35vw] w-[80vw] h-[18rem] lg:h-56 bg-yellow-600 rounded-3xl m-5 '
       onMouseLeave={() => setActive((prv) => !prv)}
       onMouseEnter={() => setActive((prv) => !prv)}
     >

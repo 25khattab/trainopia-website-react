@@ -1,3 +1,4 @@
 import nav from './navData.json';
 import achievements from './achievementsData.json';
-export { nav, achievements };
+import footer from './footer.json';
+export { nav, achievements, footer };

@@ -9,9 +9,11 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <Services />
-      <UpComingEvents />
-      <Partners />
+      <div className='lg:px-[8vw]'>
+        <Services />
+        <UpComingEvents />
+        <Partners />
+      </div>
       <Testimonial />
       <Footer />
     </div>
