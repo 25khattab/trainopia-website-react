@@ -5,7 +5,7 @@ const EventsCard = () => {
   const [active, setActive] = useState(false);
   return (
     <div
-      className='h-[35vh] w-[80vw]  lg:w-[25vw] relative flex felx-col items-center mt-10 lg:mx-5'
+      className='h-64 w-[80vw] md:w-[40vw] relative flex felx-col items-center mt-10 mx-5'
       onMouseEnter={() => setActive((prev) => !prev)}
       onMouseLeave={() => setActive((prev) => !prev)}
     >
@@ -13,9 +13,9 @@ const EventsCard = () => {
       {active ? (
         <div className=' absolute top-0 h-full w-full  rounded-3xl '>
           <div className='h-full w-full absolute top-0 bg-secondary opacity-85  rounded-3xl '></div>
-          <div className='absolute top-0 text-center p-10'>
+          <div className='absolute top-0 text-center '>
             <h1 className='text-3xl'>Super Hero</h1>
-            <p className='z-10'>
+            <p className=''>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, esse labore, explicabo nesciunt iure doloremque
               voluptate officiis ducimus illo doloribus iste eos? Adipisci magnam soluta harum nihil, veniam beatae optio.
             </p>
