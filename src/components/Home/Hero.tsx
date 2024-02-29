@@ -27,17 +27,6 @@ const Hero = () => {
                   <h3>hello man</h3>
                 </div>
               </div>
-
-              {/* <div
-                className='w-full h-[90vh]text-3xl flex flex-col justify-center items-center '
-                style={{ backgroundImage: `url(${image})`, filter: ' blur(2px)' }}
-              ><div></div>
-                <div>
-                  <img src='icons/logo.png' className='w-32' alt='' />
-                  <h1 className=''>hello world</h1>
-                  <h3>hello man</h3>
-                </div>
-              </div> */}
             </CarouselItem>
           ))}
         </CarouselContent>
