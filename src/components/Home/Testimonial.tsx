@@ -17,7 +17,7 @@ const Testimonial = () => {
       >
         <CarouselContent>
           <CarouselItem className='md:basis-1/2 lg:basis-1/3'>
-            <TestomonialCard />
+            <TestomonialCard desc=' l ' />
           </CarouselItem>
           <CarouselItem className='md:basis-1/2 lg:basis-1/3'>
             <TestomonialCard />
