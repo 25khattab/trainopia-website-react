@@ -34,9 +34,7 @@ const ServicesCard = () => {
                 className=' absolute top-1/2 -translate-y-1/2  w-full p-[10%] '
               >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam suscipit provident, similique, nobis veritatis
-                rem iusto fugiat tempore animi doloremque quo quaerat excepturi ut eaque, in minima quod commodi. Ducimus.Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Quisquam suscipit provident, similique, nobis veritatis rem
-                iusto fugiat tempore animi doloremque quo quaerat excepturi ut eaque, in minima quod commodi. Ducimus.
+                rem iusto fugiat tempore animi doloremque quo quaerat excepturi ut eaque, in minima quod commodi.
               </motion.p>
             </div>
           ) : (

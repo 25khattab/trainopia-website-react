@@ -12,9 +12,10 @@ const Footer = () => {
   const contactData = t('contactus', { returnObjects: true });
 
   return (
-    <div>
-      <div className=' grid auto-rows-auto grid-cols-4 px-20 gap-6 *:'>
-        <div className='col-span-1 flex flex-col py-10 '>
+    <div className='flex flex-col items-center'>
+      <hr className='w-[80%]' />
+      <div className=' grid auto-rows-auto grid-cols-5 px-20 gap-6 *:'>
+        <div className='col-span-2 flex flex-col py-10 '>
           <img src='icons/logo.png' className='w-28' alt='' />
           <div className=''>
             <h1 className='text-3xl'>{t('title')}</h1>
@@ -24,7 +25,7 @@ const Footer = () => {
         <div className=' col-span-1 flex flex-col gap-4 py-10'>
           <h1 className='text-2xl'>Browse</h1>
           {browseData.map((value, key) => (
-            <Link to={value != 'home' ? `/${value}` : '/'} key={key} className='w-fit '>
+            <Link to={value != 'home' ? `/${value}` : '/'} key={key} className='w-fit hover:opacity-70 '>
               {t(`browse.${value}`)}
             </Link>
           ))}
@@ -32,7 +33,7 @@ const Footer = () => {
         <div className=' col-span-1 flex flex-col gap-4 py-10 '>
           <h1 className='text-2xl'>Services</h1>
           {servicesData.map((value, index) => (
-            <Link to={`/services.${value}`} key={index} className='w-fit'>
+            <Link to={`/services.${value}`} key={index} className='w-fit hover:opacity-70'>
               {t(`services.${value}`)}
             </Link>
           ))}
@@ -53,7 +54,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div dir='ltr'>Copyrights Trainopia 2022</div>
+      <div dir='ltr' className='bg-secondary w-full '>
+        Copyrights Trainopia 2022
+      </div>
     </div>
   );
 };
