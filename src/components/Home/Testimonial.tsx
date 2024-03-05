@@ -6,7 +6,7 @@ import TestomonialCard from '../Shared/TestomonialCard';
 const Testimonial = () => {
   const language = useAppSelector((state) => state.language.arabic);
   return (
-    <div className='flex flex-col items-center'>
+    <div className='text-center'>
       <h1 className='text-3xl  lg:text-5xl mb-10'>Reviews</h1>
       <Carousel
         plugins={[

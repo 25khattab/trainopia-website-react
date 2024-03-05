@@ -2,9 +2,9 @@ import EventsCard from '../Shared/EventsCard';
 
 const UpComingEvents = () => {
   return (
-    <div className='flex flex-col items-center mt-20'>
-      <h1 className='text-3xl  lg:text-5xl'>UpComing Events</h1>
-      <div className='flex flex-wrap justify-center'>
+    <div className='flex flex-col items-center'>
+      <h1 className='my-10 text-3xl lg:text-5xl'>UpComing Events</h1>
+      <div className='flex flex-row flex-wrap justify-center gap-8'>
         <EventsCard />
         <EventsCard />
         <EventsCard />

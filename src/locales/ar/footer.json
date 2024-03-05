@@ -3,9 +3,5 @@
   "discription": "كتشف عالم المتعة والتعلم من خلال تجربة فريدة ومفيدة لأبنائك!.",
   "browse": { "home": "الرئيسية", "aboutus": "من نحن", "activities": "الانشطة", "images": "صور" },
   "services": { "codeVally": "الاولى", "kids": "الثانية", "camps": "الثالثة", "consultation": "الرابعة" },
-  "contactus": [
-    "1 Tunis, Al Basatin Al Gharbeyah, El Basatin, Cairo Governorate 4234205",
-    "nourkhaled2650@gmail.com",
-    "+201126507835"
-  ]
+  "contactus": ["1 Tunis, Al Basatin Al Gharbeyah, El Basatin, Cairo", "nourkhaled2650 @gmail.com", "+201126507835"]
 }

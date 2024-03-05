@@ -3,14 +3,9 @@
   "menu": {
     "home": "Home",
     "aboutus": "About Us",
-    "activities": "Activities"
-  },
-  "dropDownMenu": {
-    "home": "Home",
-    "aboutus": "About Us",
     "activities": "Activities",
-    "contactus": "Contact Us",
     "upComingEvents": "Upcoming Events",
+    "contactus": "Contact Us",
     "images": "Images"
   }
 }

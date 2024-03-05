@@ -3,14 +3,9 @@
   "menu": {
     "home": "الرئيسية",
     "aboutus": "من نحن",
-    "activities": "الانشطة"
-  },
-  "dropDownMenu": {
-    "home": "الرئيسية",
-    "aboutus": "من نحن",
     "activities": "الانشطة",
-    "contactus": "تواصل معنا",
     "upComingEvents": "الفعاليات القادمة",
+    "contactus": "تواصل معنا",
     "images": "صور"
   }
 }
