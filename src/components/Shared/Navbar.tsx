@@ -28,16 +28,16 @@ const Navbar = () => {
   // const dropDownKeys = Object.keys(nav.dropDownMenu) as Array<keyof typeof nav.dropDownMenu>;
   const menuKeys = Object.keys(nav.menu) as Array<keyof typeof nav.menu>;
   return (
-    <nav className='flex items-center justify-between w-full px-5 md:px-10 h-[10vh]'>
+    <nav className='flex h-[10vh] w-full items-center justify-between px-5 md:px-10'>
       <Link to='/'>
-        <img src='icons/logo.png' className='md:w-14 lg:w-24 w-24 ' />
+        <img src='icons/logo.png' className='w-24 md:w-14 lg:w-24 ' />
       </Link>
-      <div className=' h-full  md:text-sm lg:text-lg hidden md:flex '>
+      <div className=' hidden  h-full md:flex md:text-sm lg:text-lg '>
         {menuKeys.map((key) => (
           <Link
             key={key}
             to={key == 'home' ? '/' : `/${key}`}
-            className='flex items-center  md:px-2 lg:px-4 h-full hover:opacity-70  '
+            className='flex h-full  items-center hover:opacity-70 md:px-2 lg:px-4  '
           >
             {t(`menu.${key}`)}
           </Link>
@@ -53,16 +53,16 @@ const Navbar = () => {
             )}
           </div>
           <hr className='w-6 rotate-90 border-foreground ' />
-          <div className='relative flex items-center cursor-pointer  '>
+          <div className='relative flex cursor-pointer items-center  '>
             <Switch onCheckedChange={() => handleToggleLanguage(language)} className='' />
             {language ? (
-              <p className='absolute left-0 text-xs mx-1 pointer-events-none'>Ar</p>
+              <p className='pointer-events-none absolute left-0 mx-1 text-xs'>Ar</p>
             ) : (
-              <p className='absolute left-0 mx-1 text-xs pointer-events-none text-accent'>En</p>
+              <p className='pointer-events-none absolute left-0 mx-1 text-xs text-background'>En</p>
             )}
           </div>
         </div>
-        <div className='px-6 md:hidden flex'>
+        <div className='flex px-6 md:hidden'>
           <DropdownMenu dir={language ? 'rtl' : 'ltr'}>
             <DropdownMenuTrigger>
               <RxHamburgerMenu />

@@ -4,6 +4,7 @@ import Testimonial from '@/components/Home/Testimonial';
 import UpComingEvents from '../components/Home/UpComingEvents';
 import Partners from '@/components/Home/Partners';
 import Footer from '@/components/Home/Footer';
+import Media from '@/components/Home/Media';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <div className='lg:px-[8vw]'>
         <Services />
         <UpComingEvents />
+        <Media />
         <Partners />
       </div>
       <Testimonial />

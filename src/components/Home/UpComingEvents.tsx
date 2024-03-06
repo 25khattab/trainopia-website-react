@@ -9,6 +9,7 @@ const UpComingEvents = () => {
         <EventsCard />
         <EventsCard />
         <EventsCard />
+        <EventsCard />
       </div>
     </div>
   );
