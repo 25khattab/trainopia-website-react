@@ -1,6 +1,12 @@
 import nav from './navData.json';
-import achievements from './achievementsData.json';
+import achievements from './achievements.json';
 import footer from './footer.json';
 import event from './events.json';
 import media from './media.json';
-export { nav, achievements, footer, event, media };
+import activities from './activities.json';
+import codeVally from './codevally.json';
+import kids from './kids.json';
+import lectures from './lectures.json';
+import mediaTracks from './mediaTracks.json';
+import camps from './camps.json';
+export { nav, achievements, footer, event, media, activities, codeVally, kids, lectures, mediaTracks, camps };

@@ -8,8 +8,10 @@
 // TODO [ ] : map services and events to thier pages
 
 // TODO : make the upcoming page  
-// TODO : contact us  
-// TODO : garally
+// TODO : contact us page
+// TODO : garally page
+// TODO : activities page
+// TODO : up coming Events page
 
 // TODO : about us waiting for sara info-graphe
 // TODO : waiting for the separators from sara on home page

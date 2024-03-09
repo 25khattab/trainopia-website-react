@@ -3,7 +3,7 @@ import { RiMoonClearFill } from 'react-icons/ri';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { Switch } from '@/components/ui/switch';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
-import { useAppSelector, useAppDispatch } from '@/state/hooks';
+import { useAppSelector, useAppDispatch } from '@/hooks/reduxHooks';
 import { toggleLanguage } from '@/state/Slices/language';
 import { toggleTheme } from '@/state/Slices/theme';
 import { useTranslation } from 'react-i18next';
@@ -33,9 +33,9 @@ const Navbar = () => {
         <img src='icons/logo.png' className='w-24 md:w-14 lg:w-24 ' />
       </Link>
       <div className=' hidden  h-full md:flex md:text-sm lg:text-lg '>
-        {menuKeys.map((key) => (
+        {menuKeys.map((key, index) => (
           <Link
-            key={key}
+            key={index}
             to={key == 'home' ? '/' : `/${key}`}
             className='flex h-full  items-center hover:opacity-70 md:px-2 lg:px-4  '
           >

@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Navbar from './components/Shared/Navbar';
-import { useAppSelector } from './state/hooks';
+import { useAppSelector } from './hooks/reduxHooks';
 import { useEffect } from 'react';
 import i18n from './i18n';
 
