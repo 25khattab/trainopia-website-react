@@ -6,14 +6,18 @@
 // TODO [/] : media section in home page
 // TODO [/] : map services and events to thier pages
 // TODO [/] : make a localization file for the reviews section
-// TODO [ ] : add dropdown to the activities
+// TODO [/] : add scroll to
 
-// TODO : make the upcoming page  
-// TODO : contact us page
-// TODO : garally page
-// TODO : activities page
-// TODO : up coming Events page
+// TODO [ ] : contact us page
+// TODO [ ] : up coming Events page
 
-// TODO : about us waiting for sara info-graphe
-// TODO : waiting for the separators from sara on home page
-// TODO : services layput waiting for sara
+// TODO [ ] : garally page
+// TODO [ ] : activities page
+// TODO [ ] : notFound page
+// TODO [ ] : big spinner
+
+// TODO [ ] : refactor the nav bar make it smaller
+
+// TODO [ ] : about us waiting for sara info-graphe
+// TODO [ ] : waiting for the separators from sara on home page
+// TODO [ ] : services layput waiting for sara

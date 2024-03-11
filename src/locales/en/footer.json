@@ -1,7 +1,10 @@
 {
   "title": "Trainopia",
   "discription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,",
-  "browse": { "home": "Home", "aboutus": "About Us", "activities": "Activities", "images": "Images" },
-  "services": { "codeVally": "service1", "kids": "service2", "camps": "service3", "consultation": "service4" },
-  "contactUs": ["1 Tunis, Al Basatin Al Gharbeyah, El Basatin, Cairo", "nourkhaled2650 @gmail.com", "+201126507835"]
+  "browse": { "home": "Home", "aboutus": "About Us", "images": "Images" },
+  "contactus": {
+    "address": "1 Tunis, Al Basatin Al Gharbeyah, El Basatin, Cairo",
+    "email": "nourkhaled2650 @gmail.com",
+    "number": "+201126507835"
+  }
 }

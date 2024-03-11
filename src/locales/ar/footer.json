@@ -1,7 +1,10 @@
 {
   "title": "ترنوبيا",
   "discription": "كتشف عالم المتعة والتعلم من خلال تجربة فريدة ومفيدة لأبنائك!.",
-  "browse": { "home": "الرئيسية", "aboutus": "من نحن", "activities": "الانشطة", "images": "صور" },
-  "services": { "codeVally": "الاولى", "kids": "الثانية", "camps": "الثالثة", "consultation": "الرابعة" },
-  "contactus": ["1 Tunis, Al Basatin Al Gharbeyah, El Basatin, Cairo", "nourkhaled2650 @gmail.com", "+201126507835"]
+  "browse": { "home": "الرئيسية", "aboutus": "من نحن", "images": "صور" },
+  "contactus": {
+    "address": "1 Tunis, Al Basatin Al Gharbeyah, El Basatin, Cairo",
+    "email": "nourkhaled2650 @gmail.com",
+    "number": "+201126507835"
+  }
 }
