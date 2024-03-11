@@ -1,14 +1,16 @@
+import { activities } from '@/locales/ar';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 interface IProp {
-  activity: 'kids' | 'codeVally' | 'lectures' | 'mediaTracks' | 'camps';
+  activity: keyof typeof activities;
 }
 const ActivitiesCard = ({ activity }: IProp) => {
   const [active, setActive] = useState(false);
   const [screenSize, setScreenSize] = useState(false);
   useEffect(() => {
+    updateSize();
     window.addEventListener('resize', updateSize);
   }, []);
   const updateSize = () => {
@@ -39,8 +41,10 @@ const ActivitiesCard = ({ activity }: IProp) => {
                 exit={{ width: 0, opacity: 0 }}
                 className='absolute top-0 hidden h-full w-full bg-secondary opacity-75 md:flex'
               ></motion.div>
+              {/* <p className='top-1/2 absolute p-[10%] w-full -translate-y-1/3 md:-translate-y-1/2'> {t('shortDes')}</p> */}
+
               <motion.p
-                transition={{ ease: 'easeOut', duration: 1 }}
+                transition={{ ease: 'easeOut', duration: 0.5 }}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}

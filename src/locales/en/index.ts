@@ -1,12 +1,14 @@
 import nav from './navData.json';
-import achievements from './achievements.json';
+import achievements from './home/achievements.json';
 import footer from './footer.json';
-import event from './events.json';
-import media from './media.json';
-import activities from './activities.json';
-import codeVally from './codevally.json';
-import kids from './kids.json';
-import lectures from './lectures.json';
-import mediaTracks from './mediaTracks.json';
-import camps from './camps.json';
-export { nav, achievements, footer, event, media, activities, codeVally, kids, lectures, mediaTracks, camps };
+import events from './home/events.json';
+import media from './home/media.json';
+import activities from './home/activities.json';
+import codeVally from './activities/codevally.json';
+import kids from './activities/kids.json';
+import lectures from './activities/lectures.json';
+import mediaTracks from './activities/mediaTracks.json';
+import camps from './activities/camps.json';
+import reviews from './home/reviews.json';
+
+export { nav, achievements, footer, events, media, activities, codeVally, kids, lectures, mediaTracks, camps, reviews };

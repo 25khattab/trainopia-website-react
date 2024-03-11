@@ -6,7 +6,7 @@ const Activity = () => {
   const params = useParams<{ title: keyof typeof activities }>();
 
   const Activity = params.title;
-  const t = useTranslation(Activity).t;
+  const { t } = useTranslation(Activity);
   return <div> {t('title')}</div>;
 };
 

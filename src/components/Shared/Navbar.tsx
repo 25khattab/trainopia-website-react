@@ -2,50 +2,87 @@ import { IoSunnyOutline } from 'react-icons/io5';
 import { RiMoonClearFill } from 'react-icons/ri';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { Switch } from '@/components/ui/switch';
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuPortal,
+  DropdownMenuSeparator,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 import { useAppSelector, useAppDispatch } from '@/hooks/reduxHooks';
 import { toggleLanguage } from '@/state/Slices/language';
-import { toggleTheme } from '@/state/Slices/theme';
 import { useTranslation } from 'react-i18next';
-import { nav } from '@/locales/ar';
 import { useTheme } from '@/state/context/theme-provider';
 import { Link } from 'react-router-dom';
+import { events } from '@/locales/en';
+import { activities } from '@/locales/ar';
 
 const Navbar = () => {
-  const { t, i18n } = useTranslation('nav');
+  const { t, i18n } = useTranslation();
   const dispatch = useAppDispatch();
   const language = useAppSelector((state) => state.language.arabic);
   const { setTheme, theme } = useTheme();
-
+  const eventKeys = Object.keys(events) as Array<keyof typeof events>;
+  const activityKeys = Object.keys(activities) as Array<keyof typeof activities>;
   const handleToggleLanguage = (language: boolean) => {
     dispatch(toggleLanguage());
     !language ? i18n.changeLanguage('ar') : i18n.changeLanguage('en');
   };
-  const handleToggletheme = () => {
-    dispatch(toggleTheme());
-  };
 
-  // const dropDownKeys = Object.keys(nav.dropDownMenu) as Array<keyof typeof nav.dropDownMenu>;
-  const menuKeys = Object.keys(nav.menu) as Array<keyof typeof nav.menu>;
   return (
     <nav className='flex h-[10vh] w-full items-center justify-between px-5 md:px-10'>
       <Link to='/'>
         <img src='icons/logo.png' className='w-24 md:w-14 lg:w-24 ' />
       </Link>
       <div className=' hidden  h-full md:flex md:text-sm lg:text-lg '>
-        {menuKeys.map((key, index) => (
-          <Link
-            key={index}
-            to={key == 'home' ? '/' : `/${key}`}
-            className='flex h-full  items-center hover:opacity-70 md:px-2 lg:px-4  '
-          >
-            {t(`menu.${key}`)}
-          </Link>
-        ))}
+        <Link to='/' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4  '>
+          {t('nav:menu:home')}
+        </Link>
+        <Link to='/aboutus' className='flex h-full  items-center hover:opacity-70 md:px-2 lg:px-4  '>
+          {t('nav:menu:aboutus')}
+        </Link>
+        <DropdownMenu dir={language ? 'rtl' : 'ltr'}>
+          <DropdownMenuTrigger>
+            <div className='flex h-full  cursor-pointer items-center hover:opacity-70 md:px-2 lg:px-4 '>
+              {t('nav:menu:upComingEvents')}
+            </div>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent>
+            {eventKeys.map((value, index) => (
+              <DropdownMenuItem key={index} asChild>
+                <Link to={`events/${value}`}>{t(`events:${value}:title`)}</Link>
+              </DropdownMenuItem>
+            ))}
+          </DropdownMenuContent>
+        </DropdownMenu>
+        <DropdownMenu dir={language ? 'rtl' : 'ltr'}>
+          <DropdownMenuTrigger>
+            <div className='flex h-full  cursor-pointer items-center hover:opacity-70 md:px-2 lg:px-4  '>
+              {t('nav:menu:activities')}
+            </div>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent>
+            {activityKeys.map((value, index) => (
+              <DropdownMenuItem key={index} asChild>
+                <Link to={`activity/${value}`}>{t(`activities:${value}:title`)}</Link>
+              </DropdownMenuItem>
+            ))}
+          </DropdownMenuContent>
+        </DropdownMenu>
+        <Link to='/contactus' className='flex h-full  items-center hover:opacity-70 md:px-2 lg:px-4  '>
+          {t('nav:menu:contactus')}
+        </Link>
+        <Link to='/images' className='flex h-full  items-center hover:opacity-70 md:px-2 lg:px-4  '>
+          {t('nav:menu:images')}
+        </Link>
       </div>
-      <div className='flex items-center   '>
+      <div className='flex items-center'>
         <div className='flex items-center'>
-          <div onClick={handleToggletheme} className='cursor-pointer '>
+          <div className='cursor-pointer '>
             {theme === 'light' ? (
               <IoSunnyOutline onClick={() => setTheme('dark')} />
             ) : (
@@ -68,13 +105,63 @@ const Navbar = () => {
               <RxHamburgerMenu />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
-              {menuKeys.map((key) => (
-                <DropdownMenuItem key={key} asChild className=''>
-                  <Link key={key} to={key == 'home' ? '/' : `/${key}`} className={`w-full cursor-pointer   `}>
-                    {t(`menu.${key}`)}
-                  </Link>
-                </DropdownMenuItem>
-              ))}
+              <DropdownMenuItem asChild>
+                <Link to='/' className={`w-full cursor-pointer`}>
+                  {t('nav:menu:home')}
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem asChild>
+                <Link to='/aboutus' className={`w-full cursor-pointer`}>
+                  {t('nav:menu:aboutus')}
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuSub>
+                <DropdownMenuSubTrigger>
+                  <div className={`w-full cursor-pointer`}> {t('nav:menu:upComingEvents')}</div>{' '}
+                </DropdownMenuSubTrigger>
+                <DropdownMenuPortal>
+                  <DropdownMenuSubContent>
+                    {eventKeys.map((value, index) => (
+                      <DropdownMenuItem asChild key={index}>
+                        <Link to={`events/${value}`} className={`w-full cursor-pointer`}>
+                          {t(`events:${value}:title`)}
+                        </Link>
+                      </DropdownMenuItem>
+                    ))}
+                  </DropdownMenuSubContent>
+                </DropdownMenuPortal>
+              </DropdownMenuSub>
+              <DropdownMenuSeparator />
+              <DropdownMenuSub>
+                <DropdownMenuSubTrigger>
+                  <div className={`w-full cursor-pointer`}> {t('nav:menu:activities')}</div>{' '}
+                </DropdownMenuSubTrigger>
+                <DropdownMenuPortal>
+                  <DropdownMenuSubContent>
+                    {activityKeys.map((value, index) => (
+                      <DropdownMenuItem asChild key={index}>
+                        <Link to={`activity/${value}`} className={`w-full cursor-pointer`}>
+                          {t(`activities:${value}:title`)}
+                        </Link>
+                      </DropdownMenuItem>
+                    ))}
+                  </DropdownMenuSubContent>
+                </DropdownMenuPortal>
+              </DropdownMenuSub>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem asChild>
+                <Link to='/contactus' className={`w-full cursor-pointer`}>
+                  {t('nav:menu:contactus')}
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem asChild>
+                <Link to='/images' className={`w-full cursor-pointer`}>
+                  {t('nav:menu:images')}
+                </Link>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>

@@ -1,15 +1,18 @@
+import { reviews } from '@/locales/ar';
+import { useTranslation } from 'react-i18next';
 import { LiaQuoteRightSolid } from 'react-icons/lia';
 interface Props {
-  desc?: string;
+  review: keyof typeof reviews;
 }
-const TestomonialCard = ({ desc = 'lol' }: Props) => {
+const TestomonialCard = ({ review }: Props) => {
+  const { t } = useTranslation(`reviews`);
   return (
     <div className='relative m-5 flex flex-col rounded-3xl bg-secondary p-16'>
       <LiaQuoteRightSolid size={50} className='absolute left-8 top-4' />
-      <p>{desc}</p>
+      <p>{t(`${review}.review`)}</p>
       <div className='py-5'>
-        <h1>John Doe</h1>
-        <h3>CEO, Example Corp.</h3>
+        <h1>{t(`${review}.name`)}</h1>
+        <h3>{t(`${review}.title`)}</h3>
       </div>
     </div>
   );

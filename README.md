@@ -4,8 +4,9 @@
 // TODO [/] : services rectangle  
 // TODO [/] : upcoming events zy el sora  
 // TODO [/] : media section in home page
-// TODO [ ] : add dropdown to the activities  
-// TODO [ ] : map services and events to thier pages
+// TODO [/] : map services and events to thier pages
+// TODO [/] : make a localization file for the reviews section
+// TODO [ ] : add dropdown to the activities
 
 // TODO : make the upcoming page  
 // TODO : contact us page

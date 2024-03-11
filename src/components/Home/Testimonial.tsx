@@ -2,9 +2,11 @@ import Autoplay from 'embla-carousel-autoplay';
 import { Carousel, CarouselContent, CarouselItem } from '../ui/carousel';
 import { useAppSelector } from '@/hooks/reduxHooks';
 import TestomonialCard from '../Shared/TestomonialCard';
+import { reviews } from '@/locales/ar';
 
 const Testimonial = () => {
   const language = useAppSelector((state) => state.language.arabic);
+  const reviewKeys = Object.keys(reviews) as Array<keyof typeof reviews>;
   return (
     <div className='text-center'>
       <h1 className='mb-10 text-3xl lg:text-5xl'>Reviews</h1>
@@ -17,27 +19,11 @@ const Testimonial = () => {
         opts={{ loop: true, duration: 20, direction: language ? 'rtl' : 'ltr' }}
       >
         <CarouselContent>
-          <CarouselItem className='basis-1/1 md:basis-1/2 lg:basis-1/3'>
-            <TestomonialCard desc=' l ' />
-          </CarouselItem>
-          <CarouselItem className='basis-1/1 md:basis-1/2 lg:basis-1/3'>
-            <TestomonialCard />
-          </CarouselItem>
-          <CarouselItem className='basis-1/1 md:basis-1/2 lg:basis-1/3'>
-            <TestomonialCard />
-          </CarouselItem>
-          <CarouselItem className='basis-1/1 md:basis-1/2 lg:basis-1/3'>
-            <TestomonialCard />
-          </CarouselItem>
-          <CarouselItem className='basis-1/1 md:basis-1/2 lg:basis-1/3'>
-            <TestomonialCard />
-          </CarouselItem>
-          <CarouselItem className='basis-1/1 md:basis-1/2 lg:basis-1/3'>
-            <TestomonialCard />
-          </CarouselItem>
-          <CarouselItem className='basis-1/1 md:basis-1/2 lg:basis-1/3'>
-            <TestomonialCard />
-          </CarouselItem>
+          {reviewKeys.map((value, index) => (
+            <CarouselItem key={index} className='basis-1/1 md:basis-1/2 lg:basis-1/3'>
+              <TestomonialCard review={value} />
+            </CarouselItem>
+          ))}
         </CarouselContent>
       </Carousel>
     </div>
