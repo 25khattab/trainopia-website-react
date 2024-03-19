@@ -3,7 +3,6 @@ import Activities from '@/components/Home/Activities';
 import Testimonial from '@/components/Home/Testimonial';
 import UpComingEvents from '../components/Home/UpComingEvents';
 import Partners from '@/components/Home/Partners';
-import Footer from '@/components/Home/Footer';
 import Media from '@/components/Home/Media';
 
 const Home = () => {
@@ -17,7 +16,6 @@ const Home = () => {
         <Partners />
       </div>
       <Testimonial />
-      <Footer />
     </div>
   );
 };

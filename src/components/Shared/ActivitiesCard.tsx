@@ -48,8 +48,9 @@ const ActivitiesCard = ({ activity }: IProp) => {
                 exit={{ opacity: 0 }}
                 className='absolute top-1/2 w-full -translate-y-1/3 p-[10%] md:-translate-y-1/2'
               >
-                {t('shortDes')}
+                {t('shortDes')}`
               </motion.p>
+              `
             </div>
           ) : (
             <></>

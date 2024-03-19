@@ -9,6 +9,7 @@
 // TODO [/] : add scroll to
 
 // TODO [ ] : contact us page
+// TODO [ ] : what's app floating icon
 // TODO [ ] : up coming Events page
 
 // TODO [ ] : garally page

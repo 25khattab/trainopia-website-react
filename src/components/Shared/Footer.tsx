@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='col-span-1 flex flex-col gap-4'>
-          <h1 className='text-2xl'>Activities</h1>
+          <h1 className='text-2xl'>{t('footer:headlines:activities')}</h1>
           {activityKeys.map((value, index) => (
             <Link to={`/activity/${value}`} key={index} className='w-fit hover:opacity-70'>
               {t(`activities:${value}:title`)}
@@ -44,7 +44,7 @@ const Footer = () => {
           ))}
         </div>
         <div className='col-span-2 flex flex-col gap-4 md:order-4 md:col-span-2'>
-          <h1 className='text-2xl'>Contact Us</h1>
+          <h1 className='text-2xl'>{t('footer:headlines:contactus')}</h1>
           <div className='flex items-center gap-2'>
             <MdPhone size={20} className='flex-shrink-0' />
             <h3>{t('footer:contactus:number')}</h3>
@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='col-span-1 flex flex-col gap-4'>
-          <h1 className='text-2xl'>Browse</h1>
+          <h1 className='text-2xl'>{t('footer:headlines:browse')}</h1>
           {browseData.map((value, key) => (
             <Link to={value != 'home' ? `/${value}` : '/'} key={key} className='w-fit hover:opacity-70'>
               {t(`footer:browse:${value}`)}
@@ -67,7 +67,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div dir='ltr' className='w-full bg-secondary'>
+      <div dir='ltr' className='mt-10 w-full bg-secondary'>
         <h1>© 2022 Trainopia. All rights reserved.</h1>
       </div>
     </div>

@@ -1,6 +1,8 @@
 import { IoSunnyOutline } from 'react-icons/io5';
 import { RiMoonClearFill } from 'react-icons/ri';
 import { RxHamburgerMenu } from 'react-icons/rx';
+import { IoMdArrowDropdown } from 'react-icons/io';
+
 import { Switch } from '@/components/ui/switch';
 import {
   DropdownMenu,
@@ -49,6 +51,7 @@ const Navbar = () => {
           <DropdownMenuTrigger>
             <div className='flex h-full  cursor-pointer items-center hover:opacity-70 md:px-2 lg:px-4 '>
               {t('nav:menu:upComingEvents')}
+              <IoMdArrowDropdown />
             </div>
           </DropdownMenuTrigger>
           <DropdownMenuContent>
@@ -63,6 +66,7 @@ const Navbar = () => {
           <DropdownMenuTrigger>
             <div className='flex h-full  cursor-pointer items-center hover:opacity-70 md:px-2 lg:px-4  '>
               {t('nav:menu:activities')}
+              <IoMdArrowDropdown />
             </div>
           </DropdownMenuTrigger>
           <DropdownMenuContent>

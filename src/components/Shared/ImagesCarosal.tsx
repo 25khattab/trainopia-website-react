@@ -17,7 +17,7 @@ const ImagesCarosal = () => {
       >
         <CarouselContent>
           {imagesData.map((item, index) => (
-            <CarouselItem className='basis-1/1 px-0 md:basis-1/3 lg:basis-1/4'>
+            <CarouselItem key={index} className='basis-1/1 px-0 md:basis-1/3 lg:basis-1/4'>
               <div className='m-4 h-[35vh] w-[60vw] md:w-[30vw] lg:w-[20vw]' key={index}>
                 <img src={item} alt='' className='w-fu h-full' />
               </div>

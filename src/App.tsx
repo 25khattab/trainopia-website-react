@@ -3,6 +3,7 @@ import Navbar from './components/Shared/Navbar';
 import { useAppSelector } from './hooks/reduxHooks';
 import { useEffect } from 'react';
 import i18n from './i18n';
+import Footer from './components/Shared/Footer';
 
 const App = () => {
   const language = useAppSelector((state) => state.language.arabic);
@@ -13,6 +14,7 @@ const App = () => {
     <div dir={language ? 'rtl' : 'ltr'} className='min'>
       <Navbar />
       <Outlet />
+      <Footer />
     </div>
   );
 };
