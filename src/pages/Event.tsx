@@ -24,8 +24,3 @@ export default Event;
 export interface IEvent {
   title: 'superHero';
 }
-
-//union typing refactor
-//unite the event list between the nav, home event cards, and the events' pages
-//make the title to be global state
-//add more events for testing

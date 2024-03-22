@@ -16,7 +16,7 @@
 //make the title to be global state
 //add more events for testing
 
-// TODO [ ] : seperator 10mins
+// TODO [ ] : separator 10mins
 // TODO [ ] : big spinner 30mins
 
 // TODO [ ] : activities page

@@ -5,8 +5,9 @@
     "headLine": "Details",
     "description": "The Super Heroes program focuses on developing various thinking methods in children, understanding their key personality and behavioral traits, and teaching them how to express and manage their emotions. This is achieved through activities, games, and competitions held at Katameya Gardens Club, as well as through artistic and handicraft workshops and general discussion sessions. The program aims to make use of the summer vacation time by continuing to train children and teenagers on personal values and different skills through engaging games and artistic workshops.  "
   },
-  "time": "From June 4, 2022, to June 22, 2022.",
-  "location": "The headquarters of Team Trinobia in New Maadi.",
+  "from": { "word": "From", "date": "4/7/2023" },
+  "to": { "word": "To", "date": "22/7/2023" },
+  "location": "Maadi, Algerian Square.",
   "price": "800 EG",
   "age": "Age: 5 to 12",
   "goals": {

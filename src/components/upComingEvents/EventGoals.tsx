@@ -14,7 +14,7 @@ const EventGoals = ({ title }: IEvent) => {
     <div className='flex flex-col items-center gap-6 p-10'>
       <h2 className='text-3xl lg:text-6xl'>{t('goals.headLine')}</h2>
       <Carousel
-        className='max-w-[100vw] overflow-hidden text-sm lg:text-xl'
+        className='max-w-[95vw] overflow-hidden text-sm lg:text-xl'
         plugins={[
           Autoplay({
             delay: 2000,
@@ -22,9 +22,9 @@ const EventGoals = ({ title }: IEvent) => {
         ]}
         opts={{ loop: true, duration: 20, direction: language ? 'rtl' : 'ltr' }}
       >
-        <CarouselContent className='px-10'>
+        <CarouselContent className=''>
           {goalKeys.map((goal, index) => (
-            <CarouselItem key={index} className='basis-content md:basis-1/2 lg:basis-1/3'>
+            <CarouselItem key={index} className='basis-full md:basis-1/2 lg:basis-1/3'>
               <GoalsCard goal={goal} />
             </CarouselItem>
           ))}
