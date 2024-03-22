@@ -6,7 +6,7 @@ const Hero = () => {
   const language = useAppSelector((state) => state.language.arabic);
   const carouselImages = ['images/lol1.jpg', 'images/lol2.jpg', 'images/lol3.jpg', 'images/lol4.jpg', 'images/lol5.jpg'];
   return (
-    <div className='relative'>
+    <div className='relative z-30'>
       <Carousel
         className='mx-auto'
         plugins={[

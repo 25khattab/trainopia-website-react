@@ -8,17 +8,15 @@
 // TODO [/] : make a localization file for the reviews section
 // TODO [/] : add scroll to
 
-// TODO [ ] : contact us page
-// TODO [ ] : what's app floating icon
-// TODO [ ] : up coming Events page
+// TODO [/] : contact us page 2hours /// waiting for feedback
+// TODO [/] : what's app floating icon 30 mins ///// offer adding it to the footer
+// TODO [/] : notFound page 30mins
+// TODO [ ] : big spinner 30mins
+// TODO [ ] : seperator 10mins
 
-// TODO [ ] : garally page
+// TODO [ ] : up coming Events page 1hour
 // TODO [ ] : activities page
-// TODO [ ] : notFound page
-// TODO [ ] : big spinner
+// TODO [ ] : about us waiting for sara info-graphe
+// TODO [ ] : garally page
 
 // TODO [ ] : refactor the nav bar make it smaller
-
-// TODO [ ] : about us waiting for sara info-graphe
-// TODO [ ] : waiting for the separators from sara on home page
-// TODO [ ] : services layput waiting for sara
