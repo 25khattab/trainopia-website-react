@@ -7,16 +7,23 @@
 // TODO [/] : map services and events to thier pages
 // TODO [/] : make a localization file for the reviews section
 // TODO [/] : add scroll to
-
 // TODO [/] : contact us page 2hours /// waiting for feedback
 // TODO [/] : what's app floating icon 30 mins ///// offer adding it to the footer
 // TODO [/] : notFound page 30mins
-// TODO [ ] : big spinner 30mins
-// TODO [ ] : seperator 10mins
+// TODO [/] : up coming Events page 1hour
+//union typing refactor
+//unite the event list between the nav, home event cards, and the events' pages
+//make the title to be global state
+//add more events for testing
 
-// TODO [ ] : up coming Events page 1hour
+// TODO [ ] : seperator 10mins
+// TODO [ ] : big spinner 30mins
+
 // TODO [ ] : activities page
 // TODO [ ] : about us waiting for sara info-graphe
 // TODO [ ] : garally page
 
+//optmization
+
 // TODO [ ] : refactor the nav bar make it smaller
+// TODO [ ] : utilize semantic tags

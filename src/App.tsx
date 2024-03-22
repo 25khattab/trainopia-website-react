@@ -4,7 +4,7 @@ import { useAppSelector } from './hooks/reduxHooks';
 import { useEffect } from 'react';
 import i18n from './i18n';
 import Footer from './components/Shared/Footer';
-import WhatsApp from './components/Shared/WhatsApp';
+// import WhatsApp from './components/Shared/WhatsApp';
 
 const App = () => {
   const language = useAppSelector((state) => state.language.arabic);
@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div dir={language ? 'rtl' : 'ltr'} className='relative'>
       <Navbar />
-      <WhatsApp />
+      {/* <WhatsApp /> */}
       <Outlet />
       <Footer />
     </div>

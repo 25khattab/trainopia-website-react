@@ -11,7 +11,7 @@ import mediaTracks from './activities/mediaTracks.json';
 import camps from './activities/camps.json';
 import reviews from './home/reviews.json';
 import contactus from './contactus/contactus.json';
-
+import superHero from './events/superHero.json';
 export {
   nav,
   achievements,
@@ -26,4 +26,5 @@ export {
   camps,
   reviews,
   contactus,
+  superHero,
 };
