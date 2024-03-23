@@ -21,15 +21,15 @@ const EventsCard = ({ title }: IProp) => {
   return (
     <Link
       to={`/events/${title}`}
-      className='grid-row-2 md:grid-row-2 grid grid-cols-3 border-2 p-3 sm:w-[90%] md:w-[35vw] md:grid-cols-2 md:p-6 lg:grid-cols-3 lg:grid-rows-2'
+      className='grid-row-2 grid w-[80%] grid-cols-3 border-2 p-3 md:w-[35vw] md:auto-rows-fr md:grid-cols-2 md:p-6 lg:grid-cols-3 lg:grid-rows-2'
     >
-      <div className='relative col-span-1 mx-auto flex w-[80%] flex-col justify-center self-center rounded-lg border-4 border-accent p-2 text-center md:h-28 lg:col-span-1 lg:row-span-2 lg:h-[60%]'>
+      <div className='col-span-auto relative mx-auto flex h-[70%] w-[80%] flex-col justify-center self-center rounded-lg border-4 border-accent p-2 text-center lg:h-[80%]'>
         <hr className='absolute left-1/4 top-0 h-3 w-1 -translate-y-3/4 bg-accent' />
         <hr className='absolute right-1/4 top-0 h-3 w-1 -translate-y-3/4 bg-accent' />
-        <h1 className='text-4xl lg:text-6xl'>{day}</h1>
-        <h2 className='text-xs sm:text-sm lg:text-lg'>{month}</h2>
+        <h1 className='text-2xl lg:text-4xl'>{day}</h1>
+        <h2 className='overflow-x-clip pb-2 text-xs lg:text-lg'>{month}</h2>
       </div>
-      <div className='col-span-2 self-end md:col-span-1 lg:col-span-2'>
+      <div className='col-span-2 self-center'>
         <div className='xlg:flex-row flex flex-col text-xs'>
           <div className='flex'>
             <CiStopwatch size={20} className='flex-shrink-0' />
@@ -40,10 +40,10 @@ const EventsCard = ({ title }: IProp) => {
             <h3 className='text-accent'>{t(`location`)}</h3>
           </div>
         </div>
-        <h1 className='xlg:text-3xl text-base font-bold sm:p-4 md:px-0 md:py-4 md:text-xl'>{t(`title`)}</h1>
+        <h1 className='text-base font-bold sm:p-4 md:px-0 md:py-4 md:text-lg lg:text-2xl'>{t(`title`)}</h1>
       </div>
-      <div className='col-span-3 lg:col-span-2 lg:col-start-2'>
-        <p>{t(`shortDes`)}</p>
+      <div className='col-span-3 flex h-full items-center lg:col-span-3'>
+        <p className='self-start'>{t(`shortDes`)}</p>
       </div>
     </Link>
   );

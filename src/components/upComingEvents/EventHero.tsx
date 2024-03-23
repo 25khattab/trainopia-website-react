@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next';
-import IEvent from '@/@types/event';
+import { ITitle } from '@/@types/event';
 
-const EventHero = ({ title }: IEvent) => {
+const EventHero = ({ title }: ITitle) => {
   const { t } = useTranslation(title);
+
   return (
     <div className='relative'>
       <img src={`/images/${title}.png`} className='z-[-1] h-[80vh] w-full brightness-50' alt='' />

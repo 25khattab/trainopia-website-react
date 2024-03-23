@@ -7,6 +7,7 @@ import { TfiEmail } from 'react-icons/tfi';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa6';
+import { BsWhatsapp } from 'react-icons/bs';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -24,15 +25,30 @@ const Footer = () => {
             <p>{t('footer:discription')}</p>
           </div>
           <div className='flex gap-4 py-5'>
-            <div className='flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-blue-800'>
+            <a
+              href='https://www.facebook.com/TrainopiaT.D/'
+              target='_blank'
+              className='flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-blue-800'
+            >
               <FaFacebookF />
-            </div>
-            <div className='flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-red-800'>
+            </a>
+            <a
+              href='https://www.youtube.com/@trainopia4916'
+              target='_blank'
+              className='flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-red-800'
+            >
               <FaYoutube />
-            </div>
-            <div className='flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-b-blue-700 hover:border-l-slate-700 hover:border-r-red-800 hover:border-t-black'>
+            </a>
+            <a className='flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-b-blue-700 hover:border-l-slate-700 hover:border-r-red-800 hover:border-t-black'>
               <FaTiktok />
-            </div>
+            </a>
+            <a
+              href='http://wa.me/+201111314937'
+              target='_blank'
+              className='flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-green-600'
+            >
+              <BsWhatsapp />
+            </a>
           </div>
         </div>
         <div className='col-span-1 flex flex-col gap-4'>

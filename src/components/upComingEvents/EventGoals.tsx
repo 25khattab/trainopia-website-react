@@ -1,12 +1,11 @@
+import { ITitle } from '@/@types/event';
+import { useAppSelector } from '@/hooks/reduxHooks';
 import Autoplay from 'embla-carousel-autoplay';
 import { Carousel, CarouselContent, CarouselItem } from '../ui/carousel';
-import { useAppSelector } from '@/hooks/reduxHooks';
-import IEvent from '@/@types/event';
-
-import GoalsCard from './GoalsCard';
 import { useTranslation } from 'react-i18next';
+import GoalsCard from './GoalsCard';
 
-const EventGoals = ({ title }: IEvent) => {
+const EventGoals = ({ title }: ITitle) => {
   const language = useAppSelector((state) => state.language.arabic);
   const { t } = useTranslation(title);
   const goalKeys = t('goals.content', { returnObjects: true });

@@ -37,7 +37,7 @@ const Navbar = () => {
   return (
     <nav className='flex h-[10vh] w-full items-center justify-between px-5 md:px-10'>
       <Link to='/'>
-        <img src='icons/logo.png' className='w-24 md:w-14 lg:w-24' />
+        <img src='icons/logo.png' className='w-24' />
       </Link>
       <div className='hidden h-full md:flex md:text-sm lg:text-lg'>
         <Link to='/' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4'>

@@ -3,11 +3,12 @@ import { FaLocationDot } from 'react-icons/fa6';
 import { IoIosPricetag } from 'react-icons/io';
 import { FaChildReaching } from 'react-icons/fa6';
 import { useTranslation } from 'react-i18next';
-import IEvent from '@/@types/event';
+import { ITitle } from '@/@types/event';
+
 import formatDate from '@/utils/formateDate';
 import { useAppSelector } from '@/hooks/reduxHooks';
 
-const EventDetails = ({ title }: IEvent) => {
+const EventDetails = ({ title }: ITitle) => {
   const { t } = useTranslation(title);
   const language = useAppSelector((state) => state.language.arabic);
 
