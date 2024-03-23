@@ -2,7 +2,6 @@ import { IoSunnyOutline } from 'react-icons/io5';
 import { RiMoonClearFill } from 'react-icons/ri';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoMdArrowDropdown } from 'react-icons/io';
-
 import { Switch } from '@/components/ui/switch';
 import {
   DropdownMenu,
@@ -20,9 +19,9 @@ import { toggleLanguage } from '@/state/Slices/language';
 import { useTranslation } from 'react-i18next';
 import { useTheme } from '@/state/context/theme-provider';
 import { Link } from 'react-router-dom';
-import { events } from '@/locales/en';
+// import { events } from '@/locales/en';
 import { activities } from '@/locales/ar';
-
+import events from '@/locales/ar/events';
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const dispatch = useAppDispatch();
@@ -57,7 +56,7 @@ const Navbar = () => {
           <DropdownMenuContent>
             {eventKeys.map((value, index) => (
               <DropdownMenuItem key={index} asChild>
-                <Link to={`events/${value}`}>{t(`events:${value}:title`)}</Link>
+                <Link to={`events/${value}`}>{t(`${value}:title`)}</Link>
               </DropdownMenuItem>
             ))}
           </DropdownMenuContent>

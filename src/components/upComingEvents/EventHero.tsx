@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { IEvent } from '@/pages/Event';
+import IEvent from '@/@types/event';
+
 const EventHero = ({ title }: IEvent) => {
   const { t } = useTranslation(title);
   return (

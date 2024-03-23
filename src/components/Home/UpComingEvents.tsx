@@ -1,8 +1,9 @@
-import { events } from '@/locales/en';
+// import { events } from '@/locales/en';
 import EventsCard from '../Shared/EventsCard';
-
+import event from '@/locales/ar/events';
 const UpComingEvents = () => {
-  const eventTitles = Object.keys(events) as Array<keyof typeof events>;
+  const eventTitles = Object.keys(event) as Array<keyof typeof event>;
+
   return (
     <div className='flex flex-col items-center' id='event'>
       <h1 className='my-10 text-3xl lg:text-5xl'>UpComing Events</h1>

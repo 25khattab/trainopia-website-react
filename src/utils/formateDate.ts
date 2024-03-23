@@ -1,8 +1,8 @@
 function formatDate(dateString: string, language: boolean): string {
   const dateArray = dateString.split('/');
   const year = parseInt(dateArray[2]);
-  const month = parseInt(dateArray[1]) - 1;
-  const day = parseInt(dateArray[0]);
+  const month = parseInt(dateArray[0]) - 1;
+  const day = parseInt(dateArray[1]);
   const date = new Date(Date.UTC(year, month, day));
   const options: Intl.DateTimeFormatOptions = {
     day: 'numeric',

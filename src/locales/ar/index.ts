@@ -1,7 +1,6 @@
 import nav from './shared/navData.json';
 import achievements from './home/achievements.json';
 import footer from './shared/footer.json';
-import events from './home/events.json';
 import media from './home/media.json';
 import activities from './home/activities.json';
 import codeVally from './activities/codevally.json';
@@ -12,11 +11,12 @@ import camps from './activities/camps.json';
 import reviews from './home/reviews.json';
 import contactus from './contactus/contactus.json';
 import superHero from './events/superHero.json';
+import gameDevelopmentTrack from './events/gameDevelopmentTrack.json';
+import champion from './events/champions19.json';
 export {
   nav,
   achievements,
   footer,
-  events,
   media,
   activities,
   codeVally,
@@ -27,4 +27,6 @@ export {
   reviews,
   contactus,
   superHero,
+  gameDevelopmentTrack,
+  champion,
 };

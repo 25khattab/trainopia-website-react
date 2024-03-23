@@ -1,7 +1,8 @@
 import Autoplay from 'embla-carousel-autoplay';
 import { Carousel, CarouselContent, CarouselItem } from '../ui/carousel';
 import { useAppSelector } from '@/hooks/reduxHooks';
-import { IEvent } from '@/pages/Event';
+import IEvent from '@/@types/event';
+
 import GoalsCard from './GoalsCard';
 import { useTranslation } from 'react-i18next';
 
