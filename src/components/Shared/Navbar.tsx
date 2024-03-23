@@ -37,18 +37,18 @@ const Navbar = () => {
   return (
     <nav className='flex h-[10vh] w-full items-center justify-between px-5 md:px-10'>
       <Link to='/'>
-        <img src='icons/logo.png' className='w-24 md:w-14 lg:w-24 ' />
+        <img src='icons/logo.png' className='w-24 md:w-14 lg:w-24' />
       </Link>
-      <div className=' hidden  h-full md:flex md:text-sm lg:text-lg '>
-        <Link to='/' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4  '>
+      <div className='hidden h-full md:flex md:text-sm lg:text-lg'>
+        <Link to='/' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4'>
           {t('nav:menu:home')}
         </Link>
-        <Link to='/aboutus' className='flex h-full  items-center hover:opacity-70 md:px-2 lg:px-4  '>
+        <Link to='/aboutus' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4'>
           {t('nav:menu:aboutus')}
         </Link>
         <DropdownMenu dir={language ? 'rtl' : 'ltr'}>
           <DropdownMenuTrigger>
-            <div className='flex h-full  cursor-pointer items-center hover:opacity-70 md:px-2 lg:px-4 '>
+            <div className='flex h-full cursor-pointer items-center hover:opacity-70 md:px-2 lg:px-4'>
               {t('nav:menu:upComingEvents')}
               <IoMdArrowDropdown />
             </div>
@@ -63,7 +63,7 @@ const Navbar = () => {
         </DropdownMenu>
         <DropdownMenu dir={language ? 'rtl' : 'ltr'}>
           <DropdownMenuTrigger>
-            <div className='flex h-full  cursor-pointer items-center hover:opacity-70 md:px-2 lg:px-4  '>
+            <div className='flex h-full cursor-pointer items-center hover:opacity-70 md:px-2 lg:px-4'>
               {t('nav:menu:activities')}
               <IoMdArrowDropdown />
             </div>
@@ -76,25 +76,25 @@ const Navbar = () => {
             ))}
           </DropdownMenuContent>
         </DropdownMenu>
-        <Link to='/contactus' className='flex h-full  items-center hover:opacity-70 md:px-2 lg:px-4  '>
+        <Link to='/contactus' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4'>
           {t('nav:menu:contactus')}
         </Link>
-        <Link to='/images' className='flex h-full  items-center hover:opacity-70 md:px-2 lg:px-4  '>
+        <Link to='/images' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4'>
           {t('nav:menu:images')}
         </Link>
       </div>
       <div className='flex items-center'>
         <div className='flex items-center'>
-          <div className='cursor-pointer '>
+          <div className='cursor-pointer'>
             {theme === 'light' ? (
               <IoSunnyOutline onClick={() => setTheme('dark')} />
             ) : (
               <RiMoonClearFill onClick={() => setTheme('light')} />
             )}
           </div>
-          <hr className='w-6 rotate-90 border-foreground ' />
-          <div className='relative flex cursor-pointer items-center  '>
-            <Switch onCheckedChange={() => handleToggleLanguage(language)} className='' />
+          <hr className='w-6 rotate-90 border-foreground' />
+          <div className='relative flex cursor-pointer items-center'>
+            <Switch onCheckedChange={() => handleToggleLanguage(language)} />
             {language ? (
               <p className='pointer-events-none absolute left-0 mx-1 text-xs'>Ar</p>
             ) : (
@@ -129,7 +129,7 @@ const Navbar = () => {
                     {eventKeys.map((value, index) => (
                       <DropdownMenuItem asChild key={index}>
                         <Link to={`events/${value}`} className={`w-full cursor-pointer`}>
-                          {t(`events:${value}:title`)}
+                          {t(`${value}:title`)}
                         </Link>
                       </DropdownMenuItem>
                     ))}
