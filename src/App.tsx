@@ -14,6 +14,7 @@ const App = () => {
     <div dir={language ? 'rtl' : 'ltr'} className='relative'>
       <Navbar />
       <Outlet />
+      {/* <WhatsApp /> */}
       <Footer />
     </div>
   );

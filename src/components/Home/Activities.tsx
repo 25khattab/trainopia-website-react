@@ -1,12 +1,20 @@
+import { useTranslation } from 'react-i18next';
 import ActivitiesCard from '../Shared/ActivitiesCard';
 import { activities } from '@/locales/ar';
+import { useTheme } from '@/state/context/theme-provider';
 
 const Activities = () => {
   const activitiesKeys = Object.keys(activities) as Array<keyof typeof activities>;
-
+  const { t } = useTranslation('headLines');
+  const { theme } = useTheme();
+  const bgImg = theme == 'dark' ? 'bg-light-pattern' : 'bg-dark-pattern';
   return (
-    <div className='mt-20 flex flex-col items-center' id='activities'>
-      <h1 className='text-3xl lg:text-5xl'>Activities</h1>
+    <div className='relative flex flex-col items-center' id='activities'>
+      <div className='relative w-full'>
+        <div className={`${bgImg} absolute top-0 z-[-1] h-full w-full bg-indigo-400 bg-contain`}></div>
+
+        <h1 className='translate-y-[10px] py-6 text-center font-zatar text-3xl lg:text-5xl'>{t('activities')} </h1>
+      </div>
       <div className='flex flex-wrap justify-center'>
         {activitiesKeys.map((value, index) => {
           return <ActivitiesCard key={index} activity={value} />;

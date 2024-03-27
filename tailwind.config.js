@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   darkMode: ['class'],
   content: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}', './app/**/*.{ts,tsx}', './src/**/*.{ts,tsx}'],
@@ -7,7 +9,6 @@ module.exports = {
     container: {
       center: true,
       padding: '2rem',
-
       theme: {
         screens: {
           md: '768px',
@@ -26,6 +27,9 @@ module.exports = {
     },
     extend: {
       screens: { sm: '540px' },
+      fontFamily: {
+        zatar: ['zatar', ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
@@ -79,6 +83,11 @@ module.exports = {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+      },
+      backgroundImage: {
+        'dark-pattern': "url('icons/parttners/patternForLight.png')",
+        'light-pattern': "url('icons/parttners/patternForDark.png')",
+        patternn: "url('icons/parttners/topography.svg')",
       },
     },
   },

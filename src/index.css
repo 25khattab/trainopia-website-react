@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 html,
 body {
   height: 100%;
@@ -9,7 +10,13 @@ body {
   max-width: 100%;
   min-width: 300px;
 }
-
+a {
+  outline: 'none';
+}
+@font-face {
+  font-family: 'zatar';
+  src: url('/fonts/Boharat-Zataar_Bold.otf') format('opentype');
+}
 @layer base {
   :root {
     --background: 0 0% 100%;

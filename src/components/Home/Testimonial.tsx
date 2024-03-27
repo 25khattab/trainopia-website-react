@@ -3,13 +3,15 @@ import { Carousel, CarouselContent, CarouselItem } from '../ui/carousel';
 import { useAppSelector } from '@/hooks/reduxHooks';
 import TestomonialCard from '../Shared/TestomonialCard';
 import { reviews } from '@/locales/ar';
+import { useTranslation } from 'react-i18next';
 
 const Testimonial = () => {
+  const { t } = useTranslation('headLines');
   const language = useAppSelector((state) => state.language.arabic);
   const reviewKeys = Object.keys(reviews) as Array<keyof typeof reviews>;
   return (
     <div className='text-center'>
-      <h1 className='mb-10 text-3xl lg:text-5xl'>Reviews</h1>
+      <h1 className='mb-10 text-3xl lg:text-5xl'>{t('reviews')}</h1>
       <Carousel
         plugins={[
           Autoplay({

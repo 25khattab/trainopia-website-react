@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <div className='lg:px-[8vw]'>
+      <div className=''>
         <Activities />
         <UpComingEvents />
         <Media />

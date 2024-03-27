@@ -22,6 +22,7 @@ import { Link } from 'react-router-dom';
 // import { events } from '@/locales/en';
 import { activities } from '@/locales/ar';
 import events from '@/locales/ar/events';
+import React from 'react';
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const dispatch = useAppDispatch();
@@ -55,9 +56,12 @@ const Navbar = () => {
           </DropdownMenuTrigger>
           <DropdownMenuContent>
             {eventKeys.map((value, index) => (
-              <DropdownMenuItem key={index} asChild>
-                <Link to={`events/${value}`}>{t(`${value}:title`)}</Link>
-              </DropdownMenuItem>
+              <React.Fragment key={index}>
+                <DropdownMenuItem asChild>
+                  <Link to={`events/${value}`}>{t(`${value}:title`)}</Link>
+                </DropdownMenuItem>
+                <DropdownMenuSeparator />
+              </React.Fragment>
             ))}
           </DropdownMenuContent>
         </DropdownMenu>
@@ -70,9 +74,12 @@ const Navbar = () => {
           </DropdownMenuTrigger>
           <DropdownMenuContent>
             {activityKeys.map((value, index) => (
-              <DropdownMenuItem key={index} asChild>
-                <Link to={`activity/${value}`}>{t(`activities:${value}:title`)}</Link>
-              </DropdownMenuItem>
+              <React.Fragment key={index}>
+                <DropdownMenuItem asChild>
+                  <Link to={`activity/${value}`}>{t(`activities:${value}:title`)}</Link>
+                </DropdownMenuItem>
+                <DropdownMenuSeparator />
+              </React.Fragment>
             ))}
           </DropdownMenuContent>
         </DropdownMenu>
@@ -127,11 +134,14 @@ const Navbar = () => {
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
                     {eventKeys.map((value, index) => (
-                      <DropdownMenuItem asChild key={index}>
-                        <Link to={`events/${value}`} className={`w-full cursor-pointer`}>
-                          {t(`${value}:title`)}
-                        </Link>
-                      </DropdownMenuItem>
+                      <React.Fragment key={index}>
+                        <DropdownMenuItem asChild>
+                          <Link to={`events/${value}`} className={`w-full cursor-pointer`}>
+                            {t(`${value}:title`)}
+                          </Link>
+                        </DropdownMenuItem>
+                        <DropdownMenuSeparator />
+                      </React.Fragment>
                     ))}
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>
@@ -144,11 +154,14 @@ const Navbar = () => {
                 <DropdownMenuPortal>
                   <DropdownMenuSubContent>
                     {activityKeys.map((value, index) => (
-                      <DropdownMenuItem asChild key={index}>
-                        <Link to={`activity/${value}`} className={`w-full cursor-pointer`}>
-                          {t(`activities:${value}:title`)}
-                        </Link>
-                      </DropdownMenuItem>
+                      <React.Fragment key={index}>
+                        <DropdownMenuItem asChild>
+                          <Link to={`activity/${value}`} className={`w-full cursor-pointer`}>
+                            {t(`activities:${value}:title`)}
+                          </Link>
+                        </DropdownMenuItem>
+                        <DropdownMenuSeparator />
+                      </React.Fragment>
                     ))}
                   </DropdownMenuSubContent>
                 </DropdownMenuPortal>

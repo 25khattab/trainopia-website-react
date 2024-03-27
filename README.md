@@ -14,10 +14,10 @@
 // TODO [/] union typing refactor
 // TODO [/] unite the event list between the nav, home event cards, and the events' pages
 // TODO [/] add more events for testing
-// TODO [ ] make the title to be global state
-// TODO [ ] check with khattab to decrease the steps needed to add an event
+// TODO [/] check with khattab to decrease the steps needed to add an event
 // TODO [/] : refactor the event cards make it responsive 10mins
-
+// TODO [/] : make images to be a prop in the json file
+// TODO [ ] : change headline language in home page
 // TODO [ ] : separator 10mins
 // TODO [ ] : big spinner 30mins
 
