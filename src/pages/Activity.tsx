@@ -1,13 +1,16 @@
 import { activities } from '@/locales/ar';
-import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router-dom';
-
+import { ActivityTitlesTypes, activityTitles } from '@/@types/activity';
+import HeroActivity from './../components/activities/HeroActivity';
 const Activity = () => {
   const params = useParams<{ title: keyof typeof activities }>();
 
-  const Activity = params.title;
-  const { t } = useTranslation(Activity);
-  return <div> {t('title')}</div>;
+  const title = params.title;
+  function isTitleValid(title: string): title is ActivityTitlesTypes {
+    return activityTitles.includes(title as ActivityTitlesTypes);
+  }
+
+  return <div>{isTitleValid(title!) && <HeroActivity title={title} />}</div>;
 };
 
 export default Activity;

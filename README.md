@@ -21,6 +21,7 @@
 // TODO [ ] : separator 10mins
 // TODO [ ] : big spinner 30mins
 
+// TODO [ ] :global state for the event and activites
 // TODO [ ] : activities page
 // TODO [ ] : about us waiting for sara info-graphe
 // TODO [ ] : garally page
