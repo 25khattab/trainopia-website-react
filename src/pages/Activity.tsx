@@ -5,11 +5,9 @@ import ActivityDes from '@/components/activities/ActivityDes';
 import VideoSection from '@/components/activities/VideoSection';
 import FeaturesSection from '@/components/activities/FeaturesSection';
 import ProgramsSection from '@/components/activities/ProgramsSection';
-interface ParamsType {
-  title: string; // Define the type of the title property
-}
+
 const Activity = () => {
-  const params = useParams<ParamsType>();
+  const params = useParams();
 
   const title = params.title;
   function isTitleValid(title: string): title is ActivityTitlesTypes {

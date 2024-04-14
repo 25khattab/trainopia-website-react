@@ -5,14 +5,11 @@ import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import { EventTitlesTypes, eventTitles } from '@/@types/event';
 
-interface ParamsType {
-  title: string; // Define the type of the title property
-}
 const Event = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const params = useParams<ParamsType>();
+  const params = useParams();
   const title = params.title;
 
   function isTitleValid(title: string): title is EventTitlesTypes {
