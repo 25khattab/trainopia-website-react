@@ -24,28 +24,28 @@ const Footer = () => {
             <h1 className='text-3xl'>{t('footer:title')}</h1>
             <p>{t('footer:discription')}</p>
           </div>
-          <div className='flex gap-4 py-5'>
+          <div className='m-auto grid grid-cols-3 gap-4 py-5'>
             <a
               href='https://www.facebook.com/TrainopiaT.D/'
               target='_blank'
-              className='flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-blue-800'
+              className='m-auto flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-blue-800'
             >
               <FaFacebookF />
             </a>
             <a
               href='https://www.youtube.com/@trainopia4916'
               target='_blank'
-              className='flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-red-800'
+              className='m-auto flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-red-800'
             >
               <FaYoutube />
             </a>
-            <a className='flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-b-blue-700 hover:border-l-slate-700 hover:border-r-red-800 hover:border-t-black'>
+            <a className='m-auto flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-b-blue-700 hover:border-l-slate-700 hover:border-r-red-800 hover:border-t-black'>
               <FaTiktok />
             </a>
             <a
               href='http://wa.me/+201111314937'
               target='_blank'
-              className='flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-green-600'
+              className='col-start-2 m-auto flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-green-600'
             >
               <BsWhatsapp />
             </a>

@@ -7,7 +7,7 @@ import Media from '@/components/Home/Media';
 
 const Home = () => {
   return (
-    <div>
+    <div id='home'>
       <Hero />
       <div className=''>
         <Activities />

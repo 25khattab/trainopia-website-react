@@ -12,7 +12,7 @@ const TestomonialCard = ({ review }: Props) => {
       <p>{t(`${review}.review`)}</p>
       <div className='py-5'>
         <h1>{t(`${review}.name`)}</h1>
-        <h3>{t(`${review}.title`)}</h3>
+        <h2>{t(`${review}.title`)}</h2>
       </div>
     </div>
   );

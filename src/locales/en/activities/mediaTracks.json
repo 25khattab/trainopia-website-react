@@ -13,5 +13,11 @@
     "Enjoying the learning journey because it is based on practical application and live experience",
     "Suitable for children aged 8 years and above",
     "Learning many other skills such as teamwork, meeting deadlines, presentation skills, and public speaking."
+  ],
+  "programs": [
+    { "title": "", "des": "" },
+    { "title": "", "des": "" },
+    { "title": "", "des": "" },
+    { "title": "", "des": "" }
   ]
 }

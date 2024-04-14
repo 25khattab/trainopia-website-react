@@ -13,10 +13,24 @@ body {
 a {
   outline: 'none';
 }
+
 @font-face {
-  font-family: 'zatar';
-  src: url('/fonts/Boharat-Zataar_Bold.otf') format('opentype');
+  font-family: 'mikhakBold';
+  src: url('/fonts/alfont_com_Mikhak-Black.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'mikhakLight';
+  src: url('/fonts/alfont_com_Mikhak-Light-1.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'comoBold';
+  src: url('/fonts/Como-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'comoLight';
+  src: url('/fonts/Como.ttf') format('truetype');
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

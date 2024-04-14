@@ -12,5 +12,11 @@
     "Fun activities and games",
     "Various competitions and tests",
     "Our training camps are suitable for all family members, both adults and children, with each group receiving appropriate training and follow-up."
+  ],
+  "programs": [
+    { "title": "", "des": "" },
+    { "title": "", "des": "" },
+    { "title": "", "des": "" },
+    { "title": "", "des": "" }
   ]
 }

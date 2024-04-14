@@ -17,13 +17,14 @@
 // TODO [/] check with khattab to decrease the steps needed to add an event
 // TODO [/] : refactor the event cards make it responsive 10mins
 // TODO [/] : make images to be a prop in the json file
-// TODO [ ] : change headline language in home page
+// TODO [/] : change headline language in home page
+// TODO [/] : activities page
+// TODO [ ] : donky work add data for the activity page
+// TODO [ ] : aboutus tlessa
+
 // TODO [ ] : separator 10mins
 // TODO [ ] : big spinner 30mins
-
-// TODO [ ] :global state for the event and activites
-// TODO [ ] : activities page
-// TODO [ ] : about us waiting for sara info-graphe
+// TODO [ ] : global state for the event and activites
 // TODO [ ] : garally page
 
 //optmization

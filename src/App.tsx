@@ -11,11 +11,18 @@ const App = () => {
     language ? i18n.changeLanguage('ar') : i18n.changeLanguage('en');
   }, []);
   return (
-    <div dir={language ? 'rtl' : 'ltr'} className='relative'>
+    <div dir={language ? 'rtl' : 'ltr'} className={`relative ${language ? 'font-mikhakLight' : 'font-comoLight'} `}>
       <Navbar />
       <Outlet />
       {/* <WhatsApp /> */}
       <Footer />
+      <style>
+        {`
+          h1, h2 {
+            font-family: ${language ? 'mikhakBold' : 'comoBold'};
+          }
+        `}
+      </style>
     </div>
   );
 };

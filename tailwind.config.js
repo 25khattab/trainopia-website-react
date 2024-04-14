@@ -28,7 +28,10 @@ module.exports = {
     extend: {
       screens: { sm: '540px' },
       fontFamily: {
-        zatar: ['zatar', ...defaultTheme.fontFamily.sans],
+        mikhakBold: ['mikhakBold', ...defaultTheme.fontFamily.sans],
+        mikhakLight: ['mikhakLight', ...defaultTheme.fontFamily.sans],
+        comoBold: ['comoBold', ...defaultTheme.fontFamily.sans],
+        comoLight: ['comoLight', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         border: 'hsl(var(--border))',

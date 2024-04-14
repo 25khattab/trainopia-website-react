@@ -17,7 +17,7 @@ const EventDetails = ({ title }: ITitle) => {
 
   return (
     <div className='flex flex-col gap-6 p-10 lg:text-3xl'>
-      <h3 className='text-3xl lg:text-6xl'>{t('details.headLine')}</h3>
+      <h2 className='text-3xl lg:text-6xl'>{t('details.headLine')}</h2>
       <p style={{ whiteSpace: 'pre-line' }}>{t('details.description')}</p>
       <hr className='w-[80%] self-center' />
       <ul className='flex flex-col gap-4'>

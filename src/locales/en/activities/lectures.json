@@ -9,5 +9,11 @@
   "shorDes": "The field of youth training focuses on helping them understand themselves by learning a lot about the secrets of human psychology and different personality types in work and life. It also focuses on training youth on skills and equipping them with tools to help them develop themselves. Youth training includes areas such as personality types, values, balance, motivation, effective communication skills, managerial training, project management, strategic management, types of managers and employees, and other important topics in our modern daily lives.",
   "featuresHeadline": "Most Prominent Feature ",
 
-  "ourFeatures": ["Temp", "Temp", "Temp", "Temp"]
+  "ourFeatures": ["Temp", "Temp", "Temp", "Temp"],
+  "programs": [
+    { "title": "", "des": "" },
+    { "title": "", "des": "" },
+    { "title": "", "des": "" },
+    { "title": "", "des": "" }
+  ]
 }

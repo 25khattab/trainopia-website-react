@@ -1,5 +1,5 @@
 import { ITitle } from '@/@types/activity';
-import { activityVideos } from '@/data/activitiesVideo';
+import { activityVideos } from '@/data/activityPage/activitiesVideo';
 const VideoSection = ({ title }: ITitle) => {
   const videoUrl = activityVideos[title];
   return (

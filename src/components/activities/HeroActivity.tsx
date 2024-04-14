@@ -10,7 +10,7 @@ const HeroActivity = ({ title }: ITitle) => {
       <div className='absolute top-1/2 mx-10 flex -translate-y-1/2 flex-col'>
         <h1 className='  self-start py-2 md:text-2xl lg:text-4xl'>{t('title')}</h1>
         <hr className=' w-[60px] border-accent' />
-        <h2 className='mx-10 self-end md:text-lg lg:text-2xl'>{t('slogun')}</h2>
+        <h3 className='mx-10 self-end md:text-lg lg:text-2xl'>{t('slogun')}</h3>
       </div>
     </div>
   );

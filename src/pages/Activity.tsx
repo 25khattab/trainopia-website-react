@@ -4,6 +4,7 @@ import HeroActivity from './../components/activities/HeroActivity';
 import ActivityDes from '@/components/activities/ActivityDes';
 import VideoSection from '@/components/activities/VideoSection';
 import FeaturesSection from '@/components/activities/FeaturesSection';
+import ProgramsSection from '@/components/activities/ProgramsSection';
 interface ParamsType {
   title: string; // Define the type of the title property
 }
@@ -23,6 +24,7 @@ const Activity = () => {
           <ActivityDes title={title} />
           <VideoSection title={title} />
           <FeaturesSection title={title} />
+          <ProgramsSection title={title} />
         </div>
       )}
     </div>
