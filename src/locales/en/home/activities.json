@@ -1,7 +1,10 @@
 {
   "codeVally": { "title": "Code Vally", "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit." },
-  "kids": { "title": "Kids", "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit." },
-  "camps": { "title": "Camps", "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit." },
-  "lectures": { "title": "Lectures", "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit." },
-  "mediaTracks": { "title": "Media Tracks", "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit." }
+  "kids": {
+    "title": "Children & Teenagers  ",
+    "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  },
+  "camps": { "title": "Trips & Camps", "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit." },
+  "lectures": { "title": "Youth Training  ", "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit." },
+  "mediaTracks": { "title": "Multimedia", "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit." }
 }

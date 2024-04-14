@@ -2,9 +2,9 @@ import { useAppSelector } from '@/hooks/reduxHooks';
 import { Carousel, CarouselContent, CarouselItem } from '../ui/carousel';
 import Autoplay from 'embla-carousel-autoplay';
 import Achievements from './Achievements';
+import { carouselImages } from '@/data/carouselImages';
 const Hero = () => {
   const language = useAppSelector((state) => state.language.arabic);
-  const carouselImages = ['images/lol1.jpg', 'images/lol2.jpg', 'images/lol3.jpg', 'images/lol4.jpg', 'images/lol5.jpg'];
   return (
     <div className='relative z-30'>
       <Carousel
@@ -18,7 +18,7 @@ const Hero = () => {
       >
         <CarouselContent>
           {carouselImages.map((image, key) => (
-            <CarouselItem key={key}>
+            <CarouselItem key={key} className=''>
               <div className='relative h-[90vh]'>
                 <img src={image} alt='' className='aspect-video h-full w-full blur-[1px]' />
                 <div className='absolute right-1/2 top-[15%] flex translate-x-[50%] translate-y-[50%] flex-col items-center font-bold'>

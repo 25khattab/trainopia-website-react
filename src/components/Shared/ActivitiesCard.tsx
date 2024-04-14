@@ -28,7 +28,7 @@ const ActivitiesCard = ({ activity }: IProp) => {
     >
       <div className='flex h-full flex-row items-start justify-between px-10 md:items-center'>
         <img src='icons/logo.png' alt='' className='w-20 md:w-[25%] md:min-w-20' />
-        <h1 className='py-5 text-lg md:text-3xl'>{t('title')}</h1>
+        <h1 className=' py-5 text-lg md:text-base lg:text-2xl'>{t('title')}</h1>
       </div>
       <div>
         <AnimatePresence>

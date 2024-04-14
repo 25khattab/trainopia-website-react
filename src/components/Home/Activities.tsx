@@ -12,7 +12,7 @@ const Activities = () => {
     <div className='relative flex flex-col items-center' id='activities'>
       <div className='relative w-full'>
         <div className={`${bgImg} absolute top-0 z-[-1] h-full w-full bg-indigo-400 bg-contain`}></div>
-
+        {/* @ts-ignore */}
         <h1 className='translate-y-[10px] py-6 text-center font-zatar text-3xl lg:text-5xl'>{t('activities')} </h1>
       </div>
       <div className='flex flex-wrap justify-center'>

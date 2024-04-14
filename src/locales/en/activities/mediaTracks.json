@@ -1,1 +1,17 @@
-{ "title": "Camps", "slogun": "whatever", "img": "whatever.png", "shorDes": "long paragraphe", "ourFeatures": [] }
+{
+  "title": "Multimedia",
+  "slogun": "World of Creativity",
+  "img": "whatever.png",
+  "shortDesImg": "whatever.jpg",
+
+  "shortDesHeadLine": "Brief about the Activity",
+  "shorDes": "Discover the world of creativity and innovation in Trinopia's artistic programs. Take a leap in time to learn the latest media skills including photography, graphic design, video editing, and voiceover. Join us to also explore more about developing drawing skills, its types, and arts, along with many other artistic and manual skills.",
+  "featuresHeadline": "Most Prominent Feature ",
+
+  "ourFeatures": [
+    "Utilizing creativity and innovation in all stages and steps of learning the path",
+    "Enjoying the learning journey because it is based on practical application and live experience",
+    "Suitable for children aged 8 years and above",
+    "Learning many other skills such as teamwork, meeting deadlines, presentation skills, and public speaking."
+  ]
+}

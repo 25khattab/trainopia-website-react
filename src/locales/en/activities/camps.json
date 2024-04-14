@@ -1,1 +1,16 @@
-{ "title": "Camps", "slogun": "whatever", "img": "whatever.png", "shorDes": "long paragraphe", "ourFeatures": [] }
+{
+  "title": "Training Trips and Camps",
+  "slogun": "let's go on an adventure",
+  "img": "whatever.png",
+  "shortDesImg": "whatever.jpg",
+  "shortDesHeadLine": "Brief about the Activity",
+  "shorDes": "Trinopia's trips and training camps are characterized by a warm family atmosphere, combining fun learning, benefit, and a family-friendly environment.",
+  "featuresHeadline": "Most Prominent Feature ",
+
+  "ourFeatures": [
+    "Family outdoor trips",
+    "Fun activities and games",
+    "Various competitions and tests",
+    "Our training camps are suitable for all family members, both adults and children, with each group receiving appropriate training and follow-up."
+  ]
+}

@@ -1,1 +1,18 @@
-{ "title": "Camps", "slogun": "whatever", "img": "whatever.png", "shorDes": "long paragraphe", "ourFeatures": [] }
+{
+  "title": "Code Vally",
+  "slogun": "journey of development and building the future",
+  "img": "whatever.png",
+  "shortDesImg": "whatever.jpg",
+
+  "shortDesHeadLine": "Brief about the Activity",
+
+  "shorDes": "At Trinopia, we believe that training and development should be enjoyable and practical. Therefore, we focus on providing children and teenagers with modern technological skills they need in their daily lives and that are demanded by job markets in the modern world.",
+  "featuresHeadline": "Most Prominent Feature ",
+
+  "ourFeatures": [
+    "In Code Valley, the trainee embarks on a continuous journey of learning and development, discovering their creativity and acquiring many other skills.",
+    "Code Valley programs are suitable for all age groups starting from 6 years old.",
+    "The programs are delivered by a complete team of technical engineers and programmers and include globally accredited educational materials, following a practical and successful educational methodology.",
+    "Code Valley pathways culminate in the Trainopia Hackathon competition, which is one of the largest competitions in Egypt and the Arab world in the field of children's programming training, including game design, mobile applications, and Robotics."
+  ]
+}

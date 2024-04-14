@@ -1,1 +1,17 @@
-{ "title": "Camps", "slogun": "whatever", "img": "whatever.png", "shorDes": "long paragraphe", "ourFeatures": [] }
+{
+  "title": "Training Children and Teenagers",
+  "slogun": "painting the future",
+  "img": "whatever.png",
+  "shortDesImg": "whatever.jpg",
+
+  "shortDesHeadLine": "Brief about the Activity",
+
+  "shorDes": "We raise our children using modern educational methods based on strong foundations of sound educational sciences and behavior modification. We believe that play, activities, and adventures are the best way for children to learn. Join us on an inspiring and enjoyable educational journey!",
+  "featuresHeadline": "Most Prominent Feature ",
+
+  "ourFeatures": [
+    "Self-discovery and talents: We believe that every child carries unique talents and abilities within them. Therefore, we strive to discover and develop these talents through innovative activities and inspiring challenges in a safe and warm environment. We will help your children discover what sets them apart and makes them unique.",
+    "Values and ethics: We consider the development of values and ethics an essential part of children's upbringing. We help them understand concepts such as honesty, justice, respect, and responsibility. They will be able to make sound decisions and act ethically.",
+    "Skills development: We encourage children to develop their various skills, whether in arts, crafts, sports, or even critical thinking. They will be able to achieve accomplishments and develop their skills with confidence."
+  ]
+}
