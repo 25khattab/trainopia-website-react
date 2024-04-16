@@ -36,9 +36,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='flex h-[10vh] w-full items-center justify-between px-5 md:min-h-24 md:px-10'>
+    <nav className='flex h-[10vh] w-full items-center justify-between px-5 md:min-h-24 md:px-10 '>
       <Link to='/'>
-        <img src='icons/logo.png' className='w-24' />
+        <img src={`${theme == 'light' ? '/icons/logos/logoLight.png' : '/icons/logos/logoDark.png'}`} className='w-14 md:w-24' />
       </Link>
       <div className='hidden h-full md:flex md:text-sm lg:text-lg'>
         <Link to='/' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4'>

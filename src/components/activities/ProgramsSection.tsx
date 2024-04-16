@@ -19,7 +19,7 @@ const ProgramsSection = ({ title }: ITitle) => {
   const programsKeys = Object.keys(programs) as Array<keyof typeof programs>;
 
   return (
-    <div className='flex flex-col gap-y-10 px-4  md:gap-y-0'>
+    <div className='flex flex-col gap-y-10 md:gap-y-5 lg:px-[5%] '>
       {programsKeys.map((value, index) => (
         <ProgramesCard
           key={index}

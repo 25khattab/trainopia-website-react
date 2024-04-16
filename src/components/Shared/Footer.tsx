@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
       </div>
       <div dir='ltr' className='mt-10 w-full bg-secondary'>
-        <h1>© 2022 Trainopia. All rights reserved.</h1>
+        <h3>© 2022 Trainopia. All rights reserved.</h3>
       </div>
     </div>
   );

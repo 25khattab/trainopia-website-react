@@ -13,14 +13,21 @@ const ProgramesCard = ({ img, title, des, order }: IProgrameProps) => {
   const language = useAppSelector((state) => state.language.arabic);
   useEffect(() => {
     setScreenWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, [window.innerWidth]);
+  const handleResize = () => {
+    setScreenWidth(window.innerWidth);
+  };
 
   return (
     <div
       dir={screenWidth >= 768 ? (order % 2 != 0 && language ? 'ltr' : order % 2 != 0 && !language ? 'rtl' : 'auto') : 'auto'}
-      className={`flex min-h-44 flex-col items-center md:h-[35vh] md:w-[80vw] md:flex-row ${order % 2 != 0 ? 'self-end' : 'self-start'} `}
+      className={`flex min-h-44 flex-col items-center  md:w-[80vw] md:flex-row ${order % 2 != 0 ? 'self-end' : 'self-start'} `}
     >
-      <div className='relative h-full w-[70%] md:w-[35%]'>
+      <div className='relative h-full w-[60%] '>
         <img src={img} className=' h-full w-full' alt='' />
         <h2 className='absolute top-1/3  bg-secondary px-4 py-2 text-xs opacity-70 sm:text-base md:text-sm'>{title}</h2>
       </div>

@@ -26,6 +26,13 @@ module.exports = {
       },
     },
     extend: {
+      backgroundSize: {
+        auto: 'auto',
+        cover: 'cover',
+        contain: 'contain',
+        '50%': '50%',
+        16: '4rem',
+      },
       screens: { sm: '540px' },
       fontFamily: {
         mikhakBold: ['mikhakBold', ...defaultTheme.fontFamily.sans],
@@ -88,8 +95,8 @@ module.exports = {
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
       backgroundImage: {
-        'dark-pattern': "url('icons/parttners/patternForLight.png')",
-        'light-pattern': "url('icons/parttners/patternForDark.png')",
+        'dark-pattern': "url('icons/patterns/patternDark.Png')",
+        'light-pattern': "url('icons/patterns/patternLight.png')",
         patternn: "url('icons/parttners/topography.svg')",
       },
     },
