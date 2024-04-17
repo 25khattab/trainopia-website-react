@@ -19,7 +19,11 @@ const ProgramsSection = ({ title }: ITitle) => {
   const programsKeys = Object.keys(programs) as Array<keyof typeof programs>;
 
   return (
-    <div className='flex flex-col gap-y-10 md:gap-y-5 lg:px-[5%] '>
+    <div className='flex flex-col items-center gap-y-10 px-2 py-10 sm:p-10 md:gap-y-5 lg:px-[5%]'>
+      <div className='flex flex-col self-start md:self-center'>
+        <h1 className='py-2 text-lg md:text-4xl'>{t('HeadLine.programs')}</h1>
+        <hr className='w-[60px] self-start border-accent md:self-center' />
+      </div>
       {programsKeys.map((value, index) => (
         <ProgramesCard
           key={index}

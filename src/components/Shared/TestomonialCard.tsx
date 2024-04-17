@@ -7,9 +7,9 @@ interface Props {
 const TestomonialCard = ({ review }: Props) => {
   const { t } = useTranslation(`reviews`);
   return (
-    <div className='relative m-5 flex flex-col rounded-3xl bg-secondary p-16'>
+    <div className='relative mx-5 flex h-full flex-col justify-center justify-center rounded-3xl bg-secondary px-8 py-16 md:p-16'>
       <LiaQuoteRightSolid size={50} className='absolute left-8 top-4' />
-      <p>{t(`${review}.review`)}</p>
+      <p className='text-xs md:text-base'>{t(`${review}.review`)}</p>
       <div className='py-5'>
         <h1>{t(`${review}.name`)}</h1>
         <h2>{t(`${review}.title`)}</h2>

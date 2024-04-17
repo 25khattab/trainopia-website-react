@@ -1,11 +1,32 @@
 {
-  "review1": { "review": "lol", "name": "John Doe", "title": "CEO, Example Corp." },
-  "review2": { "review": "lol", "name": "John Doe", "title": "CEO, Example Corp." },
-  "review3": { "review": "lol", "name": "John Doe", "title": "CEO, Example Corp." },
-  "review4": { "review": "lol", "name": "John Doe", "title": "CEO, Example Corp." },
-  "review5": { "review": "lol", "name": "John Doe", "title": "CEO, Example Corp." },
-  "review6": { "review": "lol", "name": "John Doe", "title": "CEO, Example Corp." },
-  "review7": { "review": "lol", "name": "John Doe", "title": "CEO, Example Corp." },
-  "review8": { "review": "lol", "name": "John Doe", "title": "CEO, Example Corp." },
-  "review9": { "review": "lol", "name": "John Doe", "title": "CEO, Example Corp." }
+  "review1": {
+    "review": "The first time I see such an effective online training like this with my son, he doesn't lose his focus during the sessions due to his high engagement with the content. Thank you very much for your effort.",
+    "name": "Osama Abdelaziz",
+    "title": "Parent"
+  },
+  "review2": {
+    "review": "When I decided to go on a trip with the Trinobia team, I initially thought the trip was for children, and I would just accompany my kids in their training. However, I was impressed by the 'Yalla Camp' trip, and it is excellent for all age groups. My wife, my kids, and even my parents if they decide to go on a trip, I will definitely recommend the Trinobia team to them.",
+    "name": "Mazem and Mohamed Al Hawal",
+    "title": "Parent"
+  },
+  "review3": {
+    "review": "I really prefer to have my son train and learn from you more than anywhere else.",
+    "name": "A Trainee's Guardian",
+    "title": "Parent"
+  },
+  "review4": {
+    "review": "When I decided to go on a trip with the Trinobia team, I initially thought the trip was for children, and I would just accompany my kids in their training. However, I was impressed by the 'Yalla Camp' trip, and it is excellent for all age groups. My wife, my kids, and even my parents if they decide to go on a trip, I will definitely recommend the Trinobia team to them.",
+    "name": "Eng. Amr Mohamed",
+    "title": "Civil Engineer"
+  },
+  "review5": {
+    "review": "I am truly impressed by the young minds that are able at this age to design amazing technological projects. I was in my twenties when I presented my first product through programming. This is truly a great achievement.",
+    "name": "Ahmed Fawzi",
+    "title": "Founder and Director of AN Studio for Electronic Games"
+  },
+  "review6": {
+    "review": "Trinobia team, you have truly achieved great success, and you have demonstrated your high ability to commit and be disciplined. You have built trust in the minds of parents and families who are looking forward to more progress and success from your promising team.",
+    "name": "Sameer Bahayi",
+    "title": "Regional Manager for Google in the Middle East"
+  }
 }

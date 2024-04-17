@@ -95,8 +95,8 @@ module.exports = {
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
       backgroundImage: {
-        'dark-pattern': "url('icons/patterns/patternDark.Png')",
-        'light-pattern': "url('icons/patterns/patternLight.png')",
+        'dark-pattern': "url('icons/patterns/patternDark.svg')",
+        'light-pattern': "url('icons/patterns/patternLight.svg')",
         patternn: "url('icons/parttners/topography.svg')",
       },
     },

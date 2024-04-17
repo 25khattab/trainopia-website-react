@@ -1,24 +1,42 @@
 {
   "title": "Code Vally",
-  "slogun": "journey of development and building the future",
+  "slogun": "Build Your Future",
   "img": "whatever.png",
   "shortDesImg": "whatever.jpg",
 
-  "shortDesHeadLine": "Brief about the Activity",
+  "HeadLine": { "breif": "Brief about the Activity", "features": "Most Prominent Feature", "programs": "Our Programs" },
 
-  "shorDes": "At Trinopia, we believe that training and development should be enjoyable and practical. Therefore, we focus on providing children and teenagers with modern technological skills they need in their daily lives and that are demanded by job markets in the modern world.",
-  "featuresHeadline": "Most Prominent Feature ",
-
+  "shorDes": "Unlock Your Child’s Potential at Code Valley!” Our immersive programs blend fun with practicality. 🌟💡 We empower kids and teens with cutting-edge technological skills essential for today’s world. From coding to design, they’ll thrive in a dynamic job market. Join us on this exciting journey!",
   "ourFeatures": [
-    "In Code Valley, the trainee embarks on a continuous journey of learning and development, discovering their creativity and acquiring many other skills.",
-    "Code Valley programs are suitable for all age groups starting from 6 years old.",
-    "The programs are delivered by a complete team of technical engineers and programmers and include globally accredited educational materials, following a practical and successful educational methodology.",
-    "Code Valley pathways culminate in the Trainopia Hackathon competition, which is one of the largest competitions in Egypt and the Arab world in the field of children's programming training, including game design, mobile applications, and Robotics."
+    "At Code Valley, trainees embark on a continuous journey of learning and development. They discover their creativity and acquire various other skills.",
+    "Code Valley programs are suitable for all age groups, starting from 6 years old.",
+    "Our programs are led by an integrated team of technical engineers and programmers. They include globally accredited educational materials and follow a practical and successful pedagogical approach.",
+    "Code Valley pathways culminate in the Trainopia Hackathon, one of the largest competitions in Egypt and the Arab world for children’s programming training, including game design, mobile applications, and robotics. 🌟🚀"
   ],
   "programs": [
-    { "title": "", "des": "" },
-    { "title": "", "des": "" },
-    { "title": "", "des": "" },
-    { "title": "", "des": "" }
+    {
+      "title": "Game Development Track",
+      "des": "Dive into the world of game development! From programming to design and graphics, kids can create their own games and learn the fundamentals of virtual world design. Languages like Java, Python, C++, and C Sharp are used for building advanced games. Plus, they’ll explore Augmented Reality (AR) and Virtual Reality (VR) in an engaging and educational environment. 🎮🌟"
+    },
+    {
+      "title": "3D Modeling Track",
+      "des": "This program teaches children how to design three-dimensional shapes. They can create characters, objects, and buildings—whether fantastical or realistic. Kids learn animation skills, visual effects, material manipulation, lighting, and intricate detailing. They’ll also discover how to export their models to different formats, and how to use it in virtual reality projects or games."
+    },
+    {
+      "title": "Mobile Application Track",
+      "des": "In this track, children learn how to develop applications for smartphones. They unleash their creativity by transforming various ideas into smartphone apps. During the program, kids delve into Android app development using Java and create their own apps. They also explore cross-platform app design, which works seamlessly on both Android and iOS systems. 📱🌟"
+    },
+    {
+      "title": "Robotics Track",
+      "des": "This track introduces children to the skills of modeling, designing, and building robots. This stage encompasses engineering, mechanics, and electrical engineering studies. Additionally, they learn how to control robots by understanding various control systems and artificial intelligence techniques. Children apply what they learn in practical, hands-on projects."
+    },
+    {
+      "title": "Website Design Track ",
+      "des": "It teaches children how to design and program websites using HTML for building page structures, CSS for formatting and designing pages, and JavaScript for adding interaction and dynamics to websites. These skills can be used in developing personal and commercial websites."
+    },
+    {
+      "title": "PYTHON WIZARD Track",
+      "des": "It focuses on the Python programming language. Children can develop applications and games using Python, as well as build diverse websites by learning this language. It is suitable for both beginners and professionals. The path is divided into levels where children progress through game design, building web pages, creating electronic sites, and designing various applications."
+    }
   ]
 }

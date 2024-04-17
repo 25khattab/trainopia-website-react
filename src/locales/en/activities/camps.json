@@ -3,9 +3,9 @@
   "slogun": "let's go on an adventure",
   "img": "whatever.png",
   "shortDesImg": "whatever.jpg",
-  "shortDesHeadLine": "Brief about the Activity",
+  "HeadLine": { "breif": "Brief about the Activity", "features": "Most Prominent Feature", "programs": "Our Programs" },
+
   "shorDes": "Trinopia's trips and training camps are characterized by a warm family atmosphere, combining fun learning, benefit, and a family-friendly environment.",
-  "featuresHeadline": "Most Prominent Feature ",
 
   "ourFeatures": [
     "Family outdoor trips",

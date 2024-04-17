@@ -4,9 +4,9 @@
   "img": "whatever.png",
   "shortDesImg": "whatever.jpg",
 
-  "shortDesHeadLine": "Brief about the Activity",
+  "HeadLine": { "breif": "Brief about the Activity", "features": "Most Prominent Feature", "programs": "Our Programs" },
+
   "shorDes": "Discover the world of creativity and innovation in Trinopia's artistic programs. Take a leap in time to learn the latest media skills including photography, graphic design, video editing, and voiceover. Join us to also explore more about developing drawing skills, its types, and arts, along with many other artistic and manual skills.",
-  "featuresHeadline": "Most Prominent Feature ",
 
   "ourFeatures": [
     "Utilizing creativity and innovation in all stages and steps of learning the path",

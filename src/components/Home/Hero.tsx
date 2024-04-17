@@ -19,7 +19,7 @@ const Hero = () => {
         <CarouselContent>
           {carouselImages.map((image, key) => (
             <CarouselItem key={key} className=''>
-              <div className='relative h-[90vh]'>
+              <div className='relative h-[90dvh]'>
                 <img src={image} alt='' className='aspect-video h-full w-full blur-[1px]' />
                 <div className='absolute right-1/2 top-[15%] flex translate-x-[50%] translate-y-[50%] flex-col items-center font-bold'>
                   <img src='icons/logo.png' className='w-32' alt='' />

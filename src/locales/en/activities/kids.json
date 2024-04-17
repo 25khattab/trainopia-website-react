@@ -1,39 +1,38 @@
 {
-  "title": "Training Children and Teenagers",
-  "slogun": "painting the future",
+  "title": "Trainopia Kids & Teens",
+  "slogun": "Let’s Draw Tomorrow",
   "img": "whatever.png",
   "shortDesImg": "whatever.jpg",
 
-  "shortDesHeadLine": "Brief about the Activity",
+  "HeadLine": { "breif": "Brief about the Activity", "features": "Most Prominent Feature", "programs": "Our Programs" },
 
   "shorDes": "We raise our children using modern educational methods based on strong foundations of sound educational sciences and behavior modification. We believe that play, activities, and adventures are the best way for children to learn. Join us on an inspiring and enjoyable educational journey!",
-  "featuresHeadline": "Most Prominent Feature ",
 
   "ourFeatures": [
-    "Self-discovery and talents: We believe that every child carries unique talents and abilities within them. Therefore, we strive to discover and develop these talents through innovative activities and inspiring challenges in a safe and warm environment. We will help your children discover what sets them apart and makes them unique.",
-    "Values and ethics: We consider the development of values and ethics an essential part of children's upbringing. We help them understand concepts such as honesty, justice, respect, and responsibility. They will be able to make sound decisions and act ethically.",
-    "Skills development: We encourage children to develop their various skills, whether in arts, crafts, sports, or even critical thinking. They will be able to achieve accomplishments and develop their skills with confidence."
+    "Self and Talent Discovering: Every child is a unique star waiting to shine. Trinopia kids & teens empower kids to discover their hidden talents. Through innovative activities and inspiring challenges, we help them unlock their full potential, and uncover what sets them apart 🌟",
+    "Values and Ethics: We’re not just about fun; we’re about character-building too. Trinopia instills values like honesty, respect, and responsibility. Our champs learn to make sound decisions and act ethically, both on and off the field. ⭐",
+    "Skill Development: Whether it’s arts, sports, or critical thinking, we’ve got it covered. Trainopia encourage kids to explore diverse skills. From mastering a musical instrument to acing a soccer goal, they’ll thrive in a supportive environment. 🚀"
   ],
   "programs": {
     "champions": {
       "title": "CHAMPIONS",
-      "des": "Camps filled with challenges and adventures, where children compete in different teams and learn values and skills. These camps rely on the idea of spending entire days away from family in the campsite, learning self-reliance, responsibility, discipline, and commitment even in the simplest daily routines, amidst an atmosphere of companionship, cooperation, and positive interaction among participants."
+      "des": "Filled with challenges and adventures, these camps provide an opportunity for children to learn values and skills. Away from parents, kids develop self-reliance, responsibility, discipline, and commitment. Amid camaraderie and positive interactions, they embark on an inspiring journey. 🌞🏕️"
     },
     "superHero": {
       "title": "SUPER HEROES",
-      "des": "it's a seasonal camp that gives children the opportunity to discover their strengths, talents, and develop their skills over an extended period similar to school terms. Training takes place in one of the sports and social clubs, where the child receives training in four different areas throughout the training day: self-awareness and discovery exercises, sports activities, artistic and handicraft workshops, and recreational outdoor trips."
+      "des": "Imagine a season where your child becomes a superhero! Our Super Heroes Summer Camp is an immersive experience. Kids delve into their unique powers, develop talents, and build lasting friendships. With training in four areas; self-discovery, sports, art, and outdoor adventures, they’ll emerge as true champions. 💪"
     },
     "trainopiaLap": {
       "title": "TRAINOPIA LAB",
-      "des": "The program focuses on innovative artistic and handicraft workshops that encourage creative thinking and skill development. It aims to train children in skills and sciences that cater to both sides of the human brain: the creative and artistic aspect, and the analytical and logical mathematical aspect. The program includes training in sciences such as chemistry, physics, engineering, electricity, carpentry, and many other skills and crafts."
+      "des": "Calling all young creators! Our Lab Program is a hub of artistic and hands-on workshops. Kids explore their creative side while diving into analytical and logical skills. From chemistry experiments to woodworking, they’ll unleash their genius. 🌟"
     },
     "heros": {
-      "title": "HEROS IN OUR HOUSES",
-      "des": "It's a program that focuses on developing values and morals in everyday life. The 'Heroes in Our Homes' program began during the lockdown period in our country during the COVID-19 pandemic years, when there was a pressing need for children to engage outside their homes in outdoor atmospheres. The program focused on delivering various skills, values, and entertaining stories remotely through internet applications, all from the comfort of home."
+      "title": "HEROES AT HOME",
+      "des": "During challenging times, heroes rise. Our Heroes at Home Program began during the pandemic, bridging the gap for kids stuck indoors. Through online platforms, we delivered valuable skills, captivating stories, and a sense of community. Because heroes can emerge from their own living rooms. 💪"
     },
     "knight": {
       "title": "KNIGHT'S TALE",
-      "des": "The program relies on storytelling of epic tales of heroes, situations, and events that take children on a journey through time, witnessing challenges and adventures of individuals who lived in past eras, from whom we learn a great deal from their stories. The program is presented either in-person or virtually online, accompanied by hands-on learning of some crafts and skills that children execute as an application of the stories they hear."
+      "des": "Embark on epic quests with our Knight’s Tale Program! Historical figures come alive as kids journey through time. They witness bravery, wisdom, and adventure. Whether virtually or in person, this program combines storytelling with hands-on skills. 🌟"
     }
   }
 }

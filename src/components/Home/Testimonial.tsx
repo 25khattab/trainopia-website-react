@@ -11,7 +11,7 @@ const Testimonial = () => {
   const reviewKeys = Object.keys(reviews) as Array<keyof typeof reviews>;
   return (
     <div className='text-center'>
-      <h1 className=' mb-10 text-3xl lg:text-5xl'>{t('reviews')}</h1>
+      <h1 className='mb-10 text-3xl lg:text-5xl'>{t('reviews')}</h1>
       <Carousel
         plugins={[
           Autoplay({
@@ -22,7 +22,7 @@ const Testimonial = () => {
       >
         <CarouselContent>
           {reviewKeys.map((value, index) => (
-            <CarouselItem key={index} className='basis-1/1 md:basis-1/2 lg:basis-1/3'>
+            <CarouselItem key={index} className='basis-1/1 w-full md:w-[80%] md:basis-1/2 lg:basis-1/3'>
               <TestomonialCard review={value} />
             </CarouselItem>
           ))}

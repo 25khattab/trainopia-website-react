@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div
       dir={language ? 'rtl' : 'ltr'}
-      className={`relative ${language ? 'font-mikhakLight' : 'font-comoLight'} bg-16 ${theme == 'light' ? 'bg-light-pattern' : 'bg-dark-pattern'}`}
+      className={`relative ${language ? 'font-mikhakLight' : 'font-comoLight'} bg-50%  ${theme == 'light' ? 'bg-light-pattern' : 'bg-dark-pattern'}`}
     >
       <Navbar />
       <Outlet />
