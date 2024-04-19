@@ -11,7 +11,7 @@ const Activities = () => {
         {/* @ts-ignore */}
         <h1 className='font-mikhak translate-y-[10px] py-6 text-center text-3xl lg:text-5xl'>{t('activities')} </h1>
       </div>
-      <div className='flex flex-wrap justify-center'>
+      <div className='flex flex-wrap justify-center gap-5'>
         {activitiesKeys.map((value, index) => {
           return <ActivitiesCard key={index} activity={value} />;
         })}

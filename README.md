@@ -19,8 +19,14 @@
 // TODO [/] : make images to be a prop in the json file
 // TODO [/] : change headline language in home page
 // TODO [/] : activities page
-// TODO [ ] : donky work add data for the activity page
-// TODO [ ] : aboutus tlessa
+// TODO [/] : aboutus tlessa
+// TODO [ ] : 3 actvities data to be filled
+// TODO [ ] : adding images schema for the activities
+// TODO [ ] : counter data
+// TODO [ ] : media images
+// TODO [ ] : about us optmization and english font
+// TODO [ ] : pattern dark theme
+// TODO [ ] : footer des
 
 // TODO [ ] : separator 10mins
 // TODO [ ] : big spinner 30mins

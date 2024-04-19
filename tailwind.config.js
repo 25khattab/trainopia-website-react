@@ -97,7 +97,6 @@ module.exports = {
       backgroundImage: {
         'dark-pattern': "url('icons/patterns/patternDark.svg')",
         'light-pattern': "url('icons/patterns/patternLight.svg')",
-        patternn: "url('icons/parttners/topography.svg')",
       },
     },
   },

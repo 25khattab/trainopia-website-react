@@ -20,9 +20,9 @@ const Footer = () => {
       <div className='grid grid-cols-3 grid-rows-2 gap-4 px-10 text-xs md:grid-cols-6 md:grid-rows-1 md:gap-6 md:px-20 lg:text-base'>
         <div className='col-span-2 flex flex-col md:col-span-2'>
           <img src='icons/logo.png' className='w-28' alt='' />
-          <div>
+          <div className='flex flex-col items-center justify-center gap-5'>
             <h1 className='text-3xl'>{t('footer:title')}</h1>
-            <p>{t('footer:discription')}</p>
+            <p className='text-center'>{t('footer:discription')}</p>
           </div>
           <div className='m-auto grid grid-cols-3 gap-4 py-5'>
             <a
@@ -84,7 +84,7 @@ const Footer = () => {
         </div>
       </div>
       <div dir='ltr' className='mt-10 w-full bg-secondary'>
-        <h3>© 2022 Trainopia. All rights reserved.</h3>
+        <h3>© 2024 Trainopia. All rights reserved.</h3>
       </div>
     </div>
   );

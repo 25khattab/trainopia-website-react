@@ -1,10 +1,27 @@
 {
-  "codeVally": { "title": "Code Vally", "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit." },
-  "kids": {
-    "title": "Children & Teenagers  ",
-    "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  "codeVally": {
+    "title": "Code Vally",
+    "slogen": "Build Your Future",
+    "shortDes": "Our immersive programs blend fun with practicality. 🌟💡 Empowering kids and teens with cutting-edge tech skills essential for today’s world. From coding to design, they thrive in a dynamic job market. Join us on this journey!"
   },
-  "camps": { "title": "Trips & Camps", "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit." },
-  "lectures": { "title": "Youth Training  ", "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit." },
-  "mediaTracks": { "title": "Multimedia", "shortDes": "Lorem ipsum dolor sit amet consectetur, adipisicing elit." }
+  "kids": {
+    "title": "Kids & Teens",
+    "slogen": "Be the best version of yourself",
+    "shortDes": "Molding young minds through exhilarating challenges and thrilling adventures. Our programs and camps, for ages 5 to 16, foster teamwork, essential values, and skill development. Here’s what makes them extraordinary! 🚀"
+  },
+  "camps": {
+    "title": "Trips & Camps",
+    "slogen": "Let’s Draw Tomorrow",
+    "shortDes": "Warm family atmosphere, combining fun learning and benefits in a family-friendly environment."
+  },
+  "lectures": {
+    "title": "Specialized Training",
+    "slogen": "let's go on an adventure",
+    "shortDes": "Specialized training focuses on specific groups, covering areas like self-awareness, communication, management, parental coaching, and boot camps. Tailored training enhances personal and professional development with games and activities."
+  },
+  "mediaTracks": {
+    "title": "Multimedia Training",
+    "slogen": "World of Creativity",
+    "shortDes": "Creative innovation within Trinopia’s art programs, learning the latest media skills like photography, graphic design, video editing, and voice over. Join us to explore drawing skills, art forms, and other manual skills."
+  }
 }

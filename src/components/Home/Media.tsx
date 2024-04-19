@@ -10,12 +10,13 @@ const Media = () => {
     setToggle((prev) => !prev);
   };
   return (
-    <div className='my-20'>
+    <div className='my-20 '>
       <div className='flex justify-center' dir='rtl'>
         <AnimatedBtn onclick={handleToggle} color='accent' text={t('audio')} height='7rem' width='7rem' activated={toggle} />
         <AnimatedBtn onclick={handleToggle} color='accent' text={t('images')} height='7rem' width='7rem' activated={!toggle} />
       </div>
-      <div>{toggle ? <PodcastCarousal /> : <ImagesCarosal />}</div>
+
+      <div className=''>{toggle ? <PodcastCarousal /> : <ImagesCarosal />}</div>
     </div>
   );
 };
