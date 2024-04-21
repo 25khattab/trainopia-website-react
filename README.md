@@ -23,12 +23,15 @@
 // TODO [/] : footer des
 // TODO [/] : media images
 // TODO [/] : 3 actvities data to be filled
-// TODO [ ] : adding images schema for the activities
-// TODO [ ] : counter data
-// TODO [ ] : about us optmization and english font
-// TODO [ ] : pattern dark theme
-// TODO [ ] : activities thumbnail
+// TODO [ظ] : adding images schema for the activities
+// TODO [ ] : refactor the program paradim 30mins
+// TODO [ ] : counter data 1 min
+// TODO [ ] : about us optmization and english font 30mins
+// TODO [ ] : pattern dark theme 1 min
+// TODO [ ] : activities video thumbnail 10 mins
 // TODO [ ] : big spinner 30mins
+// TODO [ ] : program card headline opacity 10 mins
+// TODO [ ] : edit all images with //
 
 // TODO [ ]: specilized training features, 5 videos
 

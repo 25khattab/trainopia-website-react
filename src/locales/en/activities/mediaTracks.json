@@ -14,22 +14,22 @@
     "Suitable for children aged 8 years and above",
     "Learning many other skills such as teamwork, meeting deadlines, presentation skills, and public speaking."
   ],
-  "programs": [
-    {
+  "programs": {
+    "graphicDesign": {
       "title": "Graphic Design Track",
       "des": "Photoshop and Illustrator are the tools of choice for design. You will learn how to manipulate images, merge them, create artistic designs, and work with vector art and characters. They explore fonts, colors, color harmony, and quality assessment for designs and images."
     },
-    {
+    "photography": {
       "title": "Photography Track",
       "des": "Learn the fundamentals of photography and videography. They understand the differences between video and still images, study composition basics, essential image elements, angles, and lighting types. Practical training includes using Lightroom for photo editing."
     },
-    {
+    "motionGraphic": {
       "title": "Motion Graphic Track",
       "des": "In the Motion Graphics track, trainees delve into the basics of motion graphics. They explore Adobe After Effects, its user interface, and how to create animations from scratch. This involves preparing and organizing suitable files and graphics, exporting the final product, and producing videos in various formats."
     },
-    {
+    "videoEditing": {
       "title": "Video Editing Track",
       "des": "This track focuses on learning the basics of video editing using Adobe Premiere Pro. Trainees become familiar with its tools and usage. Additionally, they explore the online video editor , learn about idea development, directing, lighting secrets, adjusting audio, and maintaining control over the final output."
     }
-  ]
+  }
 }

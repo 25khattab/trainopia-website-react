@@ -28,7 +28,7 @@ const ProgramesCard = ({ img, title, des, order }: IProgrameProps) => {
       className={`flex flex-col items-center  md:h-[35vh] md:w-[80vw] md:flex-row ${order % 2 != 0 ? 'self-end' : 'self-start'} `}
     >
       <div className='relative h-full w-[90%] md:w-[60%]'>
-        <img src={img} className='h-full w-full object-cover' alt='' />
+        <img src={`/images/${img}`} className='h-full w-full object-cover' alt='' />
         <h2 className='absolute top-1/3 bg-secondary px-4 py-2 text-xs opacity-70 sm:text-base md:text-sm'>{title}</h2>
       </div>
       <p
