@@ -17,7 +17,7 @@ const ProgramsSection = ({ title }: ITitle) => {
   const { t } = useTranslation(title);
   const programs = t('programs', { returnObjects: true }) as Programs;
   const programsKeys = Object.keys(programs) as Array<keyof typeof programs>;
-
+  console.log(programs);
   return (
     <div className='flex flex-col items-center gap-y-10 px-2 py-10 sm:p-10 md:gap-y-5 lg:px-[5%]'>
       <div className='flex flex-col self-start md:self-center'>

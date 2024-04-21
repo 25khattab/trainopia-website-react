@@ -4,7 +4,7 @@
   "img": "whatever.png",
   "shortDesImg": "whatever.jpg",
 
-  "HeadLine": { "breif": "Brief about the Activity", "features": "Most Prominent Feature", "programs": "Our Programs" },
+  "HeadLine": { "breif": "Brief about the Activity", "features": "What Sets Us Apart", "programs": "Our Programs" },
 
   "shorDes": "Unlock Your Child’s Potential at Code Valley!” Our immersive programs blend fun with practicality. 🌟💡 We empower kids and teens with cutting-edge technological skills essential for today’s world. From coding to design, they’ll thrive in a dynamic job market. Join us on this exciting journey!",
   "ourFeatures": [
@@ -13,30 +13,30 @@
     "Our programs are led by an integrated team of technical engineers and programmers. They include globally accredited educational materials and follow a practical and successful pedagogical approach.",
     "Code Valley pathways culminate in the Trainopia Hackathon, one of the largest competitions in Egypt and the Arab world for children’s programming training, including game design, mobile applications, and robotics. 🌟🚀"
   ],
-  "programs": [
-    {
+  "programs": {
+    "gameTrack": {
       "title": "Game Development Track",
       "des": "Dive into the world of game development! From programming to design and graphics, kids can create their own games and learn the fundamentals of virtual world design. Languages like Java, Python, C++, and C Sharp are used for building advanced games. Plus, they’ll explore Augmented Reality (AR) and Virtual Reality (VR) in an engaging and educational environment. 🎮🌟"
     },
-    {
+    "modelingTrack": {
       "title": "3D Modeling Track",
       "des": "This program teaches children how to design three-dimensional shapes. They can create characters, objects, and buildings—whether fantastical or realistic. Kids learn animation skills, visual effects, material manipulation, lighting, and intricate detailing. They’ll also discover how to export their models to different formats, and how to use it in virtual reality projects or games."
     },
-    {
+    "mobileDev": {
       "title": "Mobile Application Track",
       "des": "In this track, children learn how to develop applications for smartphones. They unleash their creativity by transforming various ideas into smartphone apps. During the program, kids delve into Android app development using Java and create their own apps. They also explore cross-platform app design, which works seamlessly on both Android and iOS systems. 📱🌟"
     },
-    {
+    "robotics": {
       "title": "Robotics Track",
       "des": "This track introduces children to the skills of modeling, designing, and building robots. This stage encompasses engineering, mechanics, and electrical engineering studies. Additionally, they learn how to control robots by understanding various control systems and artificial intelligence techniques. Children apply what they learn in practical, hands-on projects."
     },
-    {
+    "webDev": {
       "title": "Website Design Track ",
       "des": "It teaches children how to design and program websites using HTML for building page structures, CSS for formatting and designing pages, and JavaScript for adding interaction and dynamics to websites. These skills can be used in developing personal and commercial websites."
     },
-    {
+    "pythonWizard": {
       "title": "PYTHON WIZARD Track",
       "des": "It focuses on the Python programming language. Children can develop applications and games using Python, as well as build diverse websites by learning this language. It is suitable for both beginners and professionals. The path is divided into levels where children progress through game design, building web pages, creating electronic sites, and designing various applications."
     }
-  ]
+  }
 }

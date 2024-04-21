@@ -8,9 +8,11 @@ import { FaFacebookF } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa6';
 import { BsWhatsapp } from 'react-icons/bs';
+import { useTheme } from '@/state/context/theme-provider';
 
 const Footer = () => {
   const { t } = useTranslation();
+  const { theme } = useTheme();
   const browseData = Object.keys(footer.browse) as Array<keyof typeof footer.browse>;
   const activityKeys = Object.keys(activities) as Array<keyof typeof activities>;
 
@@ -19,9 +21,12 @@ const Footer = () => {
       <hr className='my-10 w-[80%]' />
       <div className='grid grid-cols-3 grid-rows-2 gap-4 px-10 text-xs md:grid-cols-6 md:grid-rows-1 md:gap-6 md:px-20 lg:text-base'>
         <div className='col-span-2 flex flex-col md:col-span-2'>
-          <img src='icons/logo.png' className='w-28' alt='' />
-          <div className='flex flex-col items-center justify-center gap-5'>
-            <h1 className='text-3xl'>{t('footer:title')}</h1>
+          <div className='flex flex-col items-center gap-5 md:justify-center'>
+            <img
+              src={`${theme == 'light' ? 'icons/logos/logoLight.png' : 'icons/logos/logoDark.png'}`}
+              className='w-16 md:w-24 '
+              alt=''
+            />
             <p className='text-center'>{t('footer:discription')}</p>
           </div>
           <div className='m-auto grid grid-cols-3 gap-4 py-5'>

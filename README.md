@@ -20,16 +20,19 @@
 // TODO [/] : change headline language in home page
 // TODO [/] : activities page
 // TODO [/] : aboutus tlessa
-// TODO [ ] : 3 actvities data to be filled
+// TODO [/] : footer des
+// TODO [/] : media images
+// TODO [/] : 3 actvities data to be filled
 // TODO [ ] : adding images schema for the activities
 // TODO [ ] : counter data
-// TODO [ ] : media images
 // TODO [ ] : about us optmization and english font
 // TODO [ ] : pattern dark theme
-// TODO [ ] : footer des
+// TODO [ ] : activities thumbnail
+// TODO [ ] : big spinner 30mins
+
+// TODO [ ]: specilized training features, 5 videos
 
 // TODO [ ] : separator 10mins
-// TODO [ ] : big spinner 30mins
 // TODO [ ] : global state for the event and activites
 // TODO [ ] : garally page
 

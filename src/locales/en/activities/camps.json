@@ -3,20 +3,23 @@
   "slogun": "let's go on an adventure",
   "img": "whatever.png",
   "shortDesImg": "whatever.jpg",
-  "HeadLine": { "breif": "Brief about the Activity", "features": "Most Prominent Feature", "programs": "Our Programs" },
+  "HeadLine": { "breif": "Brief about the Activity", "features": "What Sets Us Apart", "programs": "Our Programs" },
 
-  "shorDes": "Trinopia's trips and training camps are characterized by a warm family atmosphere, combining fun learning, benefit, and a family-friendly environment.",
+  "shorDes": "Trainopia camps and training trips are based on the idea of learning and receiving training programs that focus on self-discovery and the development of life and social skills. Our training camps cater to all family categories, from adults to children, and each category receives appropriate training and follow-up. These trips and training camps take place in various locations, both within Cairo and outside it, in coastal cities and other provinces. Participants stay in hotels or tourist resorts for a few days, and the intensive training during this time creates a distinctive family atmosphere.",
 
-  "ourFeatures": [
-    "Family outdoor trips",
-    "Fun activities and games",
-    "Various competitions and tests",
-    "Our training camps are suitable for all family members, both adults and children, with each group receiving appropriate training and follow-up."
-  ],
-  "programs": [
-    { "title": "", "des": "" },
-    { "title": "", "des": "" },
-    { "title": "", "des": "" },
-    { "title": "", "des": "" }
-  ]
+  "ourFeatures": ["Family outdoor trips", "Fun activities and games", "Various competitions and tests"],
+  "programs": {
+    "yallaCamp": {
+      "title": "Yalla Camp",
+      "des": "Yalla Camp offers inclusive family and group getaways at Egyptian tourist hotels, spanning 4 to 5 days with full-board accommodations. Our program combines fun and learning, featuring activities amidst scenic landscapes, water sports, and outdoor adventures. Participants benefit from self-discovery sessions, gaining insights into personal behaviors, and enhancing life and social skills."
+    },
+    "champions": {
+      "title": "Champions",
+      "des": "Which are filled with challenges and adventures. Children compete in various teams while learning values and skills. These camps involve spending full days away from family in a camp setting. Participants learn self-reliance, responsibility, discipline, and commitment, even in their daily routines. The atmosphere encourages companionship, cooperation, and positive interactions among participants."
+    },
+    "trainopiaTrips": {
+      "title": "Trainopia Trips",
+      "des": "Which are shorter excursions held within or outside Cairo. Each trip has its unique character and ambiance. Trainopia Trips include historical visits to archaeological sites in Cairo and beyond. There are also special trips for girls and women, where they spend a full day at resorts or luxurious villas. Additionally, these trips cover visits to nearby provinces such as Fayoum, Fayed, Alexandria, and Ain Sokhna."
+    }
+  }
 }

@@ -28,17 +28,21 @@ const Hero = () => {
             <CarouselItem key={key} className=''>
               <div className='relative h-[90dvh]'>
                 <div className='absolute h-full w-full bg-black opacity-45'></div>
-                <img src={carouselImages[activity]} alt='' className='aspect-video h-full w-full bg-blend-darken' />
-                <div className=' absolute right-1/2 top-[15%] flex translate-x-[50%] translate-y-[50%] flex-col items-center font-bold '>
+                <img
+                  src={carouselImages[activity]}
+                  alt=''
+                  className='md:object-auto aspect-video h-full w-full object-cover bg-blend-darken'
+                />
+                <div className=' absolute right-1/2 top-[15%] flex translate-x-[50%] translate-y-1/3 flex-col items-center font-bold '>
                   {theme == 'light' ? (
-                    <img src={activityLogos.light[activity]} className='w-32' alt='' />
+                    <img src={activityLogos.light[activity]} className='w-24 md:w-32' alt='' />
                   ) : (
-                    <img src={activityLogos.dark[activity]} className='w-32' alt='' />
+                    <img src={activityLogos.dark[activity]} className='w-24 md:w-32' alt='' />
                   )}
-                  <div className='relative flex flex-col items-center justify-center  p-5'>
+                  <div className='relative flex w-full flex-col items-center justify-center  p-5 text-center'>
                     <div className='absolute z-[-1] h-full w-full rounded-xl bg-secondary opacity-45'></div>
-                    <h1 className='text-3xl'>{t(`${activity}.title`)}</h1>
-                    <h3 className='text-xl'>{t(`${activity}.slogen`)}</h3>
+                    <h1 className=' md:text-3xl'>{t(`${activity}.title`)}</h1>
+                    <h3 className='text-sm md:text-xl'>{t(`${activity}.slogen`)}</h3>
                   </div>
                 </div>
               </div>
