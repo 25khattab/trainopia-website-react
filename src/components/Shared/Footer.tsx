@@ -17,11 +17,11 @@ const Footer = () => {
   const activityKeys = Object.keys(activities) as Array<keyof typeof activities>;
 
   return (
-    <div className='flex flex-col items-center'>
+    <div className='relative flex flex-col items-center'>
       <hr className='my-10 w-[80%]' />
-      <div className='grid grid-cols-3 grid-rows-2 gap-4 px-10 text-xs md:grid-cols-6 md:grid-rows-1 md:gap-6 md:px-20 lg:text-base'>
-        <div className='col-span-2 flex flex-col md:col-span-2'>
-          <div className='flex flex-col items-center gap-5 md:justify-center'>
+      <div className='grid grid-cols-3 grid-rows-2 gap-4  px-10 text-xs md:grid-cols-6 md:grid-rows-1 md:gap-6 md:px-20 lg:text-base'>
+        <div className=' col-span-2 flex flex-col items-start md:col-span-2 md:items-center'>
+          <div className='flex  flex-col items-center gap-5  px-[9px] md:justify-center'>
             <img
               src={`${theme == 'light' ? '/icons/logos/light/logoLight.png' : '/icons/logos/dark/logoDark.png'}`}
               className='w-16 md:w-24 '
@@ -29,7 +29,7 @@ const Footer = () => {
             />
             <p className='text-center'>{t('footer:discription')}</p>
           </div>
-          <div className='m-auto grid grid-cols-3 gap-4 py-5'>
+          <div className='grid grid-cols-3 gap-4  py-5 md:m-auto'>
             <a
               href='https://www.facebook.com/TrainopiaT.D/'
               target='_blank'
@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='col-span-1 flex flex-col gap-4'>
-          <h1 className='text-2xl'>{t('footer:headlines:activities')}</h1>
+          <h1 className='text-xl'>{t('footer:headlines:activities')}</h1>
           {activityKeys.map((value, index) => (
             <Link to={`/activity/${value}`} key={index} className='w-fit hover:opacity-70'>
               {t(`activities:${value}:title`)}
@@ -65,7 +65,7 @@ const Footer = () => {
           ))}
         </div>
         <div className='col-span-2 flex flex-col gap-4 md:order-4 md:col-span-2'>
-          <h1 className='text-2xl'>{t('footer:headlines:contactus')}</h1>
+          <h1 className='text-xl'>{t('footer:headlines:contactus')}</h1>
           <div className='flex items-center gap-2'>
             <MdPhone size={20} className='flex-shrink-0' />
             <h3>{t('footer:contactus:number')}</h3>
@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='col-span-1 flex flex-col gap-4'>
-          <h1 className='text-2xl'>{t('footer:headlines:browse')}</h1>
+          <h1 className='text-xl'>{t('footer:headlines:browse')}</h1>
           {browseData.map((value, key) => (
             <Link to={value != 'home' ? `/${value}` : '/'} key={key} className='w-fit hover:opacity-70'>
               {t(`footer:browse:${value}`)}

@@ -32,6 +32,9 @@
 // TODO [/] : about us optmization and english font 30mins
 // TODO [/] : specilized training features,
 
+// TODO [ ]: hero sec numbers without scrolling
+// TODO [ ]: what's app floating icon
+
 // TODO [ ] : big spinner 30mins
 // TODO [ ] : activities video thumbnail 10 mins
 // TODO [ ] : separator 10mins
