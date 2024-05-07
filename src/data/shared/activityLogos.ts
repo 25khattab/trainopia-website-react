@@ -1,16 +1,16 @@
 export const activityLogos = {
   dark: {
-    codeVally: 'icons/logos/logoDark.png',
-    lectures: 'icons/logos/logoDark.png',
-    kids: 'icons/logos/logoDark.png',
-    camps: 'icons/logos/logoDark.png',
-    mediaTracks: 'icons/logos/logoDark.png',
+    codeVally: 'icons/logos/dark/codeVally.png',
+    lectures: 'icons/logos/dark/logoDark.png',
+    kids: 'icons/logos/dark/logoDark.png',
+    camps: 'icons/logos/dark/camps.png',
+    mediaTracks: 'icons/logos/dark/multiMediaDM.png',
   },
   light: {
-    codeVally: 'icons/logos/logoLight.png',
-    lectures: 'icons/logos/logoLight.png',
-    kids: 'icons/logos/logoLight.png',
-    camps: 'icons/logos/logoLight.png',
-    mediaTracks: 'icons/logos/logoLight.png',
+    codeVally: 'icons/logos/light/codeVally.png',
+    lectures: 'icons/logos/light/logoLight.png',
+    kids: 'icons/logos/light/logoLight.png',
+    camps: 'icons/logos/light/camps.png',
+    mediaTracks: 'icons/logos/light/multiMedia.png',
   },
 };

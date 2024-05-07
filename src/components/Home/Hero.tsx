@@ -35,9 +35,9 @@ const Hero = () => {
                 />
                 <div className=' absolute right-1/2 top-[15%] flex translate-x-[50%] translate-y-1/3 flex-col items-center font-bold '>
                   {theme == 'light' ? (
-                    <img src={activityLogos.light[activity]} className='w-24 md:w-32' alt='' />
+                    <img loading='lazy' src={activityLogos.light[activity]} className='w-24 md:w-32' alt='' />
                   ) : (
-                    <img src={activityLogos.dark[activity]} className='w-24 md:w-32' alt='' />
+                    <img loading='lazy' src={activityLogos.dark[activity]} className='w-24 md:w-32' alt='' />
                   )}
                   <div className='relative flex w-full flex-col items-center justify-center  p-5 text-center'>
                     <div className='absolute z-[-1] h-full w-full rounded-xl bg-secondary opacity-45'></div>

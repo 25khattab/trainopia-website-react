@@ -30,6 +30,7 @@ const ActivitiesCard = ({ activity }: IProp) => {
     >
       <div className='flex h-full flex-row items-start   justify-around px-10 sm:justify-between md:items-center'>
         <img
+          loading='lazy'
           src={theme == 'light' ? activityLogos.light[activity] : activityLogos.dark[activity]}
           alt=''
           className='w-20 md:w-[25%] md:min-w-20'

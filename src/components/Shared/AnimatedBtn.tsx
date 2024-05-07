@@ -19,7 +19,7 @@ const AnimatedBtn = ({ width, height, text: children, color, activated, onclick 
               initial={{ width: 0 }}
               animate={{ width: '100%' }}
               exit={{ width: 0 }}
-              className={`absolute h-1 w-full bg-${color}`}
+              className={`absolute h-[2px] w-full bg-${color}`}
             />
             {/* bottom */}
             <motion.hr
@@ -27,7 +27,7 @@ const AnimatedBtn = ({ width, height, text: children, color, activated, onclick 
               initial={{ width: 0 }}
               animate={{ width: '100%' }}
               exit={{ width: 0 }}
-              className={`absolute top-[100%] h-1 w-full -translate-y-1 bg-${color}`}
+              className={`absolute top-[100%] h-[2px] w-full -translate-y-[2px] bg-${color}`}
             />
             {/* right */}
             <motion.hr
@@ -35,7 +35,7 @@ const AnimatedBtn = ({ width, height, text: children, color, activated, onclick 
               initial={{ height: 0 }}
               animate={{ height: '100%' }}
               exit={{ height: 0 }}
-              className={`absolute h-full w-1 bg-${color}`}
+              className={`absolute h-full w-[2px] bg-${color}`}
             />
             {/* left */}
             <motion.hr
@@ -43,7 +43,7 @@ const AnimatedBtn = ({ width, height, text: children, color, activated, onclick 
               initial={{ height: 0 }}
               animate={{ height: '100%' }}
               exit={{ height: 0 }}
-              className={`absolute right-[100%] h-full w-1 translate-x-1 bg-${color}`}
+              className={`absolute right-[100%] h-full w-[2px] translate-x-[2px] bg-${color}`}
             />
           </>
         ) : (

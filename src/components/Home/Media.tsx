@@ -11,7 +11,7 @@ const Media = () => {
   };
   return (
     <div className='my-20 '>
-      <div className='flex justify-center' dir='rtl'>
+      <div className='flex justify-center gap-6' dir='rtl'>
         <AnimatedBtn onclick={handleToggle} color='accent' text={t('audio')} height='7rem' width='7rem' activated={toggle} />
         <AnimatedBtn onclick={handleToggle} color='accent' text={t('images')} height='7rem' width='7rem' activated={!toggle} />
       </div>

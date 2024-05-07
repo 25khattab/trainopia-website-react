@@ -1,9 +1,4 @@
 {
-  "codeVally": {
-    "title": "Code Vally",
-    "slogen": "Build Your Future",
-    "shortDes": "Our immersive programs blend fun with practicality. 🌟💡 Empowering kids and teens with cutting-edge tech skills essential for today’s world. From coding to design, they thrive in a dynamic job market. Join us on this journey!"
-  },
   "kids": {
     "title": "Kids & Teens",
     "slogen": "Be the best version of yourself",
@@ -13,6 +8,11 @@
     "title": "Trips & Camps",
     "slogen": "Let’s Draw Tomorrow",
     "shortDes": "Warm family atmosphere, combining fun learning and benefits in a family-friendly environment."
+  },
+  "codeVally": {
+    "title": "Code Vally",
+    "slogen": "Build Your Future",
+    "shortDes": "Our immersive programs blend fun with practicality. 🌟💡 Empowering kids and teens with cutting-edge tech skills essential for today’s world. From coding to design, they thrive in a dynamic job market. Join us on this journey!"
   },
   "lectures": {
     "title": "Specialized Training",

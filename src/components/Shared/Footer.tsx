@@ -23,7 +23,7 @@ const Footer = () => {
         <div className='col-span-2 flex flex-col md:col-span-2'>
           <div className='flex flex-col items-center gap-5 md:justify-center'>
             <img
-              src={`${theme == 'light' ? 'icons/logos/logoLight.png' : 'icons/logos/logoDark.png'}`}
+              src={`${theme == 'light' ? '/icons/logos/light/logoLight.png' : '/icons/logos/dark/logoDark.png'}`}
               className='w-16 md:w-24 '
               alt=''
             />
@@ -48,7 +48,7 @@ const Footer = () => {
               <FaTiktok />
             </a>
             <a
-              href='http://wa.me/+201111314937'
+              href='https://wa.me/201111314937'
               target='_blank'
               className='col-start-2 m-auto flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-green-600'
             >
