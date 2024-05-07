@@ -7,7 +7,12 @@
 
   "shorDes": "Specialized training focuses on assisting specific groups of people who share common characteristics. It covers areas such as self-awareness, values, effective communication, management skills, parental training and coaching, and training boot camos. Along with a lot of games and exciting activities, this tailored training enhances personal and professional development. ",
 
-  "ourFeatures": ["Temp", "Temp", "Temp", "Temp"],
+  "ourFeatures": [
+    "A program tailored specifically to your needs",
+    "Experienced trainers",
+    "The latest training methods",
+    "Follow-up on development after training"
+  ],
   "programs": {
     "self_descovery": {
       "title": "Self-discovery ",

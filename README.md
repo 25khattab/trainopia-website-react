@@ -23,23 +23,23 @@
 // TODO [/] : footer des
 // TODO [/] : media images
 // TODO [/] : 3 actvities data to be filled
-// TODO [ظ] : adding images schema for the activities
-// TODO [ ] : refactor the program paradim 30mins
-// TODO [ ] : counter data 1 min
-// TODO [ ] : about us optmization and english font 30mins
-// TODO [ ] : pattern dark theme 1 min
-// TODO [ ] : activities video thumbnail 10 mins
+// TODO [/] : adding images schema for the activities
+// TODO [/]: 5 videos
+// TODO [/] : counter data 1 min
+// TODO [/] : pattern dark theme 1 min
+// TODO [/] : edit all images with //
+// TODO [/] : program card headline opacity 10 mins
+// TODO [/] : about us optmization and english font 30mins
+// TODO [/] : specilized training features,
+
 // TODO [ ] : big spinner 30mins
-// TODO [ ] : program card headline opacity 10 mins
-// TODO [ ] : edit all images with //
-
-// TODO [ ]: specilized training features, 5 videos
-
+// TODO [ ] : activities video thumbnail 10 mins
 // TODO [ ] : separator 10mins
-// TODO [ ] : global state for the event and activites
 // TODO [ ] : garally page
-
 //optmization
+// TODO [ ] : global state for the event and activites
+// TODO [ ] : footer redirect fixes
+// TODO [ ] : refactor the program paradim 30mins
 // TODO [ ] : refactor the nav bar make it smaller
 // TODO [ ] : utilize semantic tags
 // TODO [ ] : make a custom hook for the screen size event listener

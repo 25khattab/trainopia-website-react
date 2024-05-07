@@ -29,7 +29,7 @@ const ProgramesCard = ({ img, title, des, order }: IProgrameProps) => {
     >
       <div className='relative h-full w-[90%] md:w-[60%]'>
         <img loading='lazy' src={`/images/${img}`} className='h-full w-full object-cover' alt='' />
-        <h2 className='absolute top-1/3 bg-secondary px-4 py-2 text-xs opacity-70 sm:text-base md:text-sm'>{title}</h2>
+        <h2 className='absolute top-1/3 bg-secondary/75 px-4 py-2 text-xs  sm:text-base md:text-sm'>{title}</h2>
       </div>
       <p
         dir={language ? 'rtl' : 'ltr'}
