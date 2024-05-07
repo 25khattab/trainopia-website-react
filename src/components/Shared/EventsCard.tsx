@@ -33,11 +33,11 @@ const EventsCard = ({ title }: IProp) => {
         <div className='xlg:flex-row flex flex-col text-xs'>
           <div className='flex'>
             <CiStopwatch size={20} className='flex-shrink-0' />
-            <h3 className='text-accent'>{t('period')} </h3>
+            <h3 className='font-bold text-accent'>{t('period')} </h3>
           </div>
           <div className='xlg:mx-3 flex'>
             <CiLocationOn size={20} className='flex-shrink-0' />
-            <h3 className='text-accent'>{t(`location`)}</h3>
+            <h3 className='font-bold text-accent'>{t(`location`)}</h3>
           </div>
         </div>
         <h1 className='text-base font-bold sm:p-4 md:px-0 md:py-4 md:text-lg lg:text-2xl'>{t(`title`)}</h1>

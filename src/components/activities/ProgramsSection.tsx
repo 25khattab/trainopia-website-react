@@ -8,11 +8,11 @@ type Programs = {
     des: string;
   };
 };
-interface ProgramImage {
-  [title: string]: {
-    [program: string]: string;
-  };
-}
+// interface ProgramImage {
+//   [title: string]: {
+//     [program: string]: string;
+//   };
+// }
 const ProgramsSection = ({ title }: ITitle) => {
   const { t } = useTranslation(title);
   const programs = t('programs', { returnObjects: true }) as Programs;
@@ -28,6 +28,7 @@ const ProgramsSection = ({ title }: ITitle) => {
       {programsKeys.map((value, index) => (
         <ProgramesCard
           key={index}
+          //@ts-ignore
           img={programImage[title][value]}
           title={programs[value].title}
           des={programs[value].des}
