@@ -27,4 +27,6 @@ jobs:
         server: ftp.trainopia.org
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_USER_PASS }}
+        protocol: ftps
         local-dir: ./dist/
+        log-level: verbose
