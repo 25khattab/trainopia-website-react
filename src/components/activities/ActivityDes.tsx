@@ -1,6 +1,6 @@
 import { ITitle } from '@/@types/activity';
 import { useTranslation } from 'react-i18next';
-import { activityImages } from '@/data/activityPage/activitiesImages';
+// import { activityImages } from '@/data/activityPage/activitiesImages';
 const ActivityDes = ({ title }: ITitle) => {
   const { t } = useTranslation(title);
   return (

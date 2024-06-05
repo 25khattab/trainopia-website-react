@@ -7,7 +7,7 @@ import { TfiEmail } from 'react-icons/tfi';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaYoutube } from 'react-icons/fa';
 import { FaTiktok } from 'react-icons/fa6';
-import { BsWhatsapp } from 'react-icons/bs';
+// import { BsWhatsapp } from 'react-icons/bs';
 import { useTheme } from '@/state/context/theme-provider';
 
 const Footer = () => {
