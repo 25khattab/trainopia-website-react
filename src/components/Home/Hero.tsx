@@ -25,8 +25,8 @@ const Hero = () => {
       >
         <CarouselContent>
           {activitieKeys.map((activity, key) => (
-            <CarouselItem key={key} className=''>
-              <div className='relative h-[90dvh]'>
+            <CarouselItem key={key}>
+              <div className='relative h-[88vh]'>
                 <div className='absolute h-full w-full bg-black opacity-45'></div>
                 <img
                   src={carouselImages[activity]}

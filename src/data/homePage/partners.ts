@@ -8,10 +8,9 @@ export const partnersLogo = {
     '/icons/partners/dark/ilmy.png',
     '/icons/partners/dark/reada.png',
     '/icons/partners/dark/smartWay.png',
-
     '/icons/partners/dark/sws.png',
     '/icons/partners/dark/zewail.png',
-    '/icons/partners/sencro.png',
+    // '/icons/partners/sencro.png',
   ],
   light: [
     '/icons/partners/light/banfsg.png',
@@ -25,6 +24,6 @@ export const partnersLogo = {
 
     '/icons/partners/light/sws.png',
     '/icons/partners/light/zewail.png',
-    '/icons/partners/sencro.png',
+    // '/icons/partners/sencro.png',
   ],
 };
