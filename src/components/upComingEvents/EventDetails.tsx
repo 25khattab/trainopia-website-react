@@ -1,12 +1,10 @@
-import { FaRegCalendarCheck } from 'react-icons/fa';
-import { FaLocationDot } from 'react-icons/fa6';
-import { IoIosPricetag } from 'react-icons/io';
-import { FaChildReaching } from 'react-icons/fa6';
-import { useTranslation } from 'react-i18next';
 import { ITitle } from '@/@types/event';
+import { useTranslation } from 'react-i18next';
+import { FaRegCalendarCheck } from 'react-icons/fa';
+import { FaChildReaching, FaLocationDot } from 'react-icons/fa6';
 
-import formatDate from '@/utils/formateDate';
 import { useAppSelector } from '@/hooks/reduxHooks';
+import formatDate from '@/utils/formateDate';
 
 const EventDetails = ({ title }: ITitle) => {
   const { t } = useTranslation(title);
