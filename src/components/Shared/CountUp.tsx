@@ -16,9 +16,9 @@ const CountUp = ({ value, label }: IAchievementsDataProps) => {
   }, []);
 
   return (
-    <div className='flex h-[50%] flex-grow flex-col items-center justify-center border-foreground text-center text-xs sm:text-base md:h-[70%] md:text-2xl'>
+    <div className='flex h-[50%] flex-grow flex-col items-center justify-center border-foreground text-center text-xs font-bold sm:text-base md:h-[70%] md:text-2xl'>
       <motion.h3>{rounded}</motion.h3>
-      <h1>{label}</h1>
+      <h1 className='font-bold'>{label}</h1>
     </div>
   );
 };

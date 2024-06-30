@@ -29,11 +29,11 @@ const ProgramesCard = ({ img, title, des, order }: IProgrameProps) => {
     >
       <div className='relative h-full w-[90%] md:w-[60%]'>
         <img loading='lazy' src={`/images/${img}`} className='h-full w-full object-cover' alt='' />
-        <h2 className='absolute top-1/3 bg-secondary/75 px-4 py-2 text-xs  sm:text-base md:text-sm'>{title}</h2>
+        <h2 className='absolute top-1/3 bg-accent/40 px-4 py-2 text-xs  sm:text-base md:text-sm'>{title}</h2>
       </div>
       <p
         dir={language ? 'rtl' : 'ltr'}
-        className='h-[90%] content-center bg-secondary p-4 text-xs shadow-md shadow-foreground sm:text-base md:w-[70%] md:text-sm lg:text-lg'
+        className='h-[90%] content-center bg-accent p-4 text-xs shadow-md shadow-foreground sm:text-base md:w-[70%] md:text-sm lg:text-lg'
       >
         {des}
       </p>

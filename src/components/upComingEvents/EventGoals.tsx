@@ -6,8 +6,8 @@ import { useTranslation } from 'react-i18next';
 import GoalsCard from './GoalsCard';
 
 const EventGoals = ({ title }: ITitle) => {
-  const language = useAppSelector((state) => state.language.arabic);
   const { t } = useTranslation(title);
+  const language = useAppSelector((state) => state.language.arabic);
   const goalKeys = t('goals.content', { returnObjects: true });
 
   return (

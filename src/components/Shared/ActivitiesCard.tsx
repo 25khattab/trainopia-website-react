@@ -24,7 +24,7 @@ const ActivitiesCard = ({ activity }: IProp) => {
   return (
     <Link
       to={`/activity/${activity}`}
-      className='relative min-h-60 w-[80vw] bg-primary-foreground py-4 shadow-sm shadow-foreground sm:min-h-52 md:min-h-44 md:w-[35vw]'
+      className='relative min-h-60 w-[80vw] bg-accent  py-4 font-bold shadow-sm shadow-foreground sm:min-h-52 md:min-h-44 md:w-[35vw]'
       onMouseLeave={() => setActive((prv) => !prv)}
       onMouseEnter={() => setActive((prv) => !prv)}
     >

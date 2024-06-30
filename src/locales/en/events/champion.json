@@ -1,0 +1,28 @@
+{
+  "title": "Champions",
+  "image": "champions.png",
+  "shortDes": "A training camp for children and teenagers aged 7 to 14, featuring a variety of activities, challenge competitions, adventures, and fun. Participants are divided into teams, with each team working to win in a series of games and competitions, earning points based on their achievements. The camp is located in a nearby area in Cairo.",
+  "details": {
+    "headLine": "Details",
+    "description": "For the twenty-first consecutive season, Trainopia team organizes the Champions training camp for children aged 7 to 14. This camp focuses on physical activities, exploratory games, and competitive challenges. This season, the camp is located in Hurghada, incorporating marine and beach activities. The camp aims to train children and teenagers in self-reliance, responsibility, and commitment through a three-day experience where they live with other children, supervisors, and organizers. They learn to manage their own affairs such as sleeping, waking up, eating, performing various activities, and personal hygiene with the assistance of supervisors. The camp's daily program follows a training plan designed to instill specific core values through games and physical activities throughout the day. Children learn teamwork, leadership, time management, and other enriching skills in an engaging and enjoyable format."
+  },
+  "from": { "word": "From", "date": "5/24/2024" },
+  "to": { "word": "To", "date": "5/26/2024" },
+  "period": "Weekly during the summer",
+  "location": "Palma Beach Hotel - Hurghada",
+  "price": "unknown",
+  "age": "Age: 7 to 14 years old",
+  "goals": {
+    "headLine": "Goals",
+    "content": [
+      "Training children and teenagers in self-reliance, responsibility, and commitment through performing daily tasks and habits independently.",
+      "Exploring new places away from family and enjoying time in a coastal city.",
+      "Modifying children's behaviors through interactive and training compliance.",
+      "Creating a diverse training experience based on play, movement, and fun activities.",
+      "Learning skills of coexistence and cooperation with others, leadership, and time management skills.",
+      "Living opportunities with trained supervisors and specialists in education and children's behavior modification for a relatively long period, and training on the most beneficial daily habits.",
+      "Diversity in skills covered by the camp, including motor, sports, mental, intellectual, behavioral, and spiritual skills.",
+      "Increasing self-confidence values and positive cooperation with others."
+    ]
+  }
+}

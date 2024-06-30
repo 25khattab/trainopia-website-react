@@ -13,7 +13,7 @@ const Hero = () => {
   const { t } = useTranslation('activities');
   const activitieKeys = Object.keys(activities) as Array<keyof typeof activities>;
   return (
-    <div className='relative z-30'>
+    <div className='relative z-30 h-[100vh]'>
       <Carousel
         className='mx-auto'
         plugins={[
@@ -25,8 +25,8 @@ const Hero = () => {
       >
         <CarouselContent>
           {activitieKeys.map((activity, key) => (
-            <CarouselItem key={key} className=''>
-              <div className='relative h-[90dvh]'>
+            <CarouselItem key={key}>
+              <div className='relative h-[100vh]'>
                 <div className='absolute h-full w-full bg-black opacity-45'></div>
                 <img
                   src={carouselImages[activity]}
@@ -40,7 +40,7 @@ const Hero = () => {
                     <img loading='lazy' src={activityLogos.dark[activity]} className='w-24 md:w-32' alt='' />
                   )}
                   <div className='relative flex w-full flex-col items-center justify-center  p-5 text-center'>
-                    <div className='absolute z-[-1] h-full w-full rounded-xl bg-secondary opacity-45'></div>
+                    <div className='absolute z-[-1] h-full w-full rounded-xl bg-accent opacity-45'></div>
                     <h1 className=' md:text-3xl'>{t(`${activity}.title`)}</h1>
                     <h3 className='text-sm md:text-xl'>{t(`${activity}.slogen`)}</h3>
                   </div>

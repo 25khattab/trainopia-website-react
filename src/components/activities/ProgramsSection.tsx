@@ -8,11 +8,7 @@ type Programs = {
     des: string;
   };
 };
-// interface ProgramImage {
-//   [title: string]: {
-//     [program: string]: string;
-//   };
-// }
+
 const ProgramsSection = ({ title }: ITitle) => {
   const { t } = useTranslation(title);
   const programs = t('programs', { returnObjects: true }) as Programs;
