@@ -47,13 +47,6 @@ const Footer = () => {
             <a className='m-auto flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-b-blue-700 hover:border-l-slate-700 hover:border-r-red-800 hover:border-t-black'>
               <FaTiktok size={18} />
             </a>
-            {/* <a
-              href='https://wa.me/201111314937'
-              target='_blank'
-              className='col-start-2 m-auto flex cursor-pointer items-center gap-2 rounded-full border border-transparent p-2 hover:border-green-600'
-            >
-              <BsWhatsapp size={18} />
-            </a> */}
           </div>
         </div>
         <div className='col-span-1 flex flex-col gap-4'>
@@ -70,16 +63,19 @@ const Footer = () => {
             <MdPhone size={20} className='flex-shrink-0' />
             <h3>{t('footer:contactus:number')}</h3>
           </div>
-          <div className='flex items-center gap-2'>
-            <TfiEmail size={20} className='flex-shrink-0' />
-            <h3>{t('footer:contactus:email')}</h3>
-          </div>
-          <div className='flex items-center gap-2'>
-            <FaLocationDot size={20} className='flex-shrink-0' />
-            <a target='_blank' href='https://maps.app.goo.gl/KZ4Y3cQ9mM4VjU777'>
+          <a href='mailto:trainopia@gmail.com'>
+            <div className='flex items-center gap-2'>
+              <TfiEmail size={20} className='flex-shrink-0' />
+              <h3>{t('footer:contactus:email')}</h3>
+            </div>
+          </a>
+          <a target='_blank' href='https://maps.app.goo.gl/KZ4Y3cQ9mM4VjU777'>
+            <div className='flex items-center gap-2'>
+              <FaLocationDot size={20} className='flex-shrink-0' />
+
               {t('footer:contactus:address')}
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
         <div className='col-span-1 flex flex-col gap-4'>
           <h1 className='text-xl'>{t('footer:headlines:browse')}</h1>
@@ -90,7 +86,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div dir='ltr' className='mt-10 w-full bg-secondary'>
+      <div dir='ltr' className='mt-10 w-full bg-accent'>
         <h3>© 2024 Trainopia. All rights reserved.</h3>
       </div>
     </div>

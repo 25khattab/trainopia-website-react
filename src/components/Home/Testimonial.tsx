@@ -10,7 +10,7 @@ const Testimonial = () => {
   const language = useAppSelector((state) => state.language.arabic);
   const reviewKeys = Object.keys(reviews) as Array<keyof typeof reviews>;
   return (
-    <div className='text-center'>
+    <div className='text-center '>
       <h1 className='mb-10 text-3xl lg:text-5xl'>{t('reviews')}</h1>
       <Carousel
         plugins={[

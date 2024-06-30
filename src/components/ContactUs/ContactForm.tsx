@@ -68,7 +68,7 @@ const ContactForm = () => {
             placeholder='Full Name'
             type='text'
             {...register('name', { required: true, minLength: { value: 3, message: 'Minimun Length is 3' } })}
-            className='border-1 rounded-md border-foreground bg-secondary p-2'
+            className='border-1 rounded-md border-foreground bg-accent/60 p-2'
           />
           <p className='text-red-400'>{errors.name?.message}</p>
         </div>
@@ -76,7 +76,7 @@ const ContactForm = () => {
           <label htmlFor='email'>{t('formData.email')}</label>
           <input
             placeholder='name@example.com'
-            className='border-1 rounded-md border-foreground bg-secondary p-2'
+            className='border-1 rounded-md border-foreground bg-accent/60 p-2'
             {...register('email', {
               pattern: { value: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/, message: 'InValid Email Format' },
               required: true,
@@ -90,7 +90,7 @@ const ContactForm = () => {
             placeholder={`we'd love to hear from you`}
             {...register('message', { required: { value: true, message: 'Message is Required' } })}
             rows={5}
-            className='border-1 rounded-md border-foreground bg-secondary p-2'
+            className='border-1 rounded-md border-foreground bg-accent/60 p-2'
           ></textarea>
           <p className='text-red-400'>{errors.message?.message}</p>
         </div>

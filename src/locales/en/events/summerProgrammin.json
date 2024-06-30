@@ -1,0 +1,29 @@
+{
+  "title": "Summer Programming Track",
+  "image": "summerProgramming.png",
+  "shortDes": "It is a long-term programming teaching program that focuses on teaching children and adolescents from 6 to 16 years old the basics of programming, computer science, and technology. Its theme for the sixth season in 2024 is game design using the Godot platform, which is a fun platform for teaching game design and development.",
+  "details": {
+    "headLine": "Details",
+    "description": "It is a long-term program for teaching programming to children and adolescents from 6 to 16 years old. This program is held for the sixth consecutive season after its success in the previous five seasons. The program aims to equip children and adolescents with the skill of learning technology, which is now the foundation for building the future as many jobs and professions will rely on this skill in the future. \nIn the summer of 2024, children will learn the Godot platform, which is a 2D and 3D cross-platform game engine. The development environment runs on multiple operating systems, and Godot can create games targeting personal computers and web systems. \nThe game development path has several levels \nLevel 1: From 6 to 10 years old \nThis level covers an introduction to computer science and different programming languages, an overview of the Godot engine, learning about nodes and scenes and how to create and run them. Children will practically apply what they learn by designing a 2D game of their own creation. \nLevel 2: From 11 to 16 years old \nParticipants in this path will learn many details about the Godot engine and how it works, learning about nodes and scenes, choosing different work environments, learning the languages on which the engine is based and how to write scripts in them. Participants will practically apply what they learn by designing 2D and 3D games. \nThese skills are the latest technological skills on which complete economic industries and experiences in the modern era are based. Participants from different areas in Cairo or outside join the program, which lasts for 66 training hours, with practical application for each part of the training path. \nThe path qualifies students to compete in the largest programming competitions in Egypt and one of the largest competitions in the Arab world, Trainopia Hackathon, where teams participating in the program compete to select the winning technological projects throughout the entire path. Each team works on a project of their own design and production, mainly based on programming mobile applications and designing 2D and 3D game models. The projects are presented in full before a jury of specialists in programming and technology to be evaluated based on each part of the project. Trainees experience a rich training experience where they can collaborate and live with team members and practice presentation and presentation skills, and problem-solving skills. \nThe path is presented by the Trainopia team accredited by Cloudypedia, Google Education agents in Egypt, and Microsoft Education in the Middle East."
+  },
+  "from": { "word": "From", "date": "6/22/2024" },
+  "to": { "word": "To", "date": "8/30/2024" },
+  "period": "Weekly during summer",
+  "location": "Online – Maadi – Fifth Settlement",
+  "price": "unknown",
+  "age": "Age: from 6 to 16 years",
+  "goals": {
+    "headLine": "Goals",
+    "content": [
+      "Building the future of young people from an early age by teaching them modern technology and its uses.",
+      "Opening different and modern ways of thinking for trainees.",
+      "Teaching trainees the basis on which various jobs and professions in the modern era are based.",
+      "Creating an opportunity to learn materials accredited by global bodies at the hands of specialists in programming and technology.",
+      "Qualifying students to pass the largest programming competition in Egypt and one of the largest competitions in the Arab world.",
+      "Developing logical thinking, creative thinking, and problem-solving skills in trainees.",
+      "Increasing values of self-confidence, commitment, positive cooperation, and training in presentation and presentation skills.",
+      "Creating an opportunity to participate in the largest programming competitions in the Arab world and work on completing a project and presenting it before a specialized jury.",
+      "An opportunity to live with other trainees interested in the same fields to learn and exchange experiences."
+    ]
+  }
+}

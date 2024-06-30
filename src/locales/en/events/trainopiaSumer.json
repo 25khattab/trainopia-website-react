@@ -1,0 +1,26 @@
+{
+  "title": "Trainopia Summer Camp",
+  "image": "trainopiaSumer.jpg",
+  "shortDes": "This is a continuous summer camp for children aged 6 to 14 years old. It focuses on developing four essential aspects of a child's and teenager's life during the summer: sports, personality-building skills, manual and artistic skills, and recreational trips. The trainees utilize the summer vacation in various open places, and children and teenagers interact with each other in an atmosphere filled with fun, enjoyment, and learning.",
+  "details": {
+    "headLine": "Details",
+    "description": "The Trainopia Summer Camp program focuses on developing different ways of thinking among children, understanding their main personal and behavioral traits, and learning how to express and manage their emotions through activities, games, and competitions held at the team's headquarters and one of Cairo's clubs. It also includes artistic and manual workshops and general discussion sessions. The program aims to make use of the summer vacation time and continue training children and teenagers on personal values and different skills through exciting games and artistic workshops."
+  },
+  "from": { "word": "From", "date": "7/1/2024" },
+  "to": { "word": "To", "date": "9/1/2024" },
+  "period": "Weekly during the summer",
+  "location": "Trainopia Team Headquarters - Maadi Club",
+  "price": "unknown",
+  "age": "Age: 10 to 16 years",
+  "goals": {
+    "headLine": "Goals",
+    "content": [
+      "Developing the child's mental abilities and discovering different thinking patterns",
+      "Developing manners and interpersonal skills",
+      "Developing skills to express and manage emotions positively",
+      "Modifying behaviors through enjoyable games and activities",
+      "Developing artistic and creative skills through various art workshops",
+      "Focusing on the recreational aspect through enjoyable outdoor trips"
+    ]
+  }
+}

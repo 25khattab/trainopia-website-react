@@ -4,7 +4,7 @@ import { activityImages } from '@/data/activityPage/activitiesImages';
 const HeroActivity = ({ title }: ITitle) => {
   const { t } = useTranslation(title);
   return (
-    <div className='bg-whatere relative h-[30vh] text-white'>
+    <div className='bg-whatere relative h-[40vh] text-white'>
       <div className='absolute h-full w-full bg-black opacity-45'></div>
       <img loading='lazy' src={`/${activityImages[title][0]}`} className='h-full w-full object-cover' alt='' />
       <div className='absolute top-1/2 mx-10 flex -translate-y-1/2 flex-col'>

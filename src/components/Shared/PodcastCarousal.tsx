@@ -25,7 +25,7 @@ const PodcastCarousal = () => {
                   <div className='absolute hidden h-full w-full items-center justify-center rounded-2xl bg-accent opacity-75 group-hover:flex'>
                     <BsMic size={50} />
                   </div>
-                  <img src={item.imagePath} alt='' className='h-full w-full rounded-2xl' />
+                  <img src={item.imagePath} className='h-full w-full rounded-2xl' />
                 </a>
               </div>
             </CarouselItem>

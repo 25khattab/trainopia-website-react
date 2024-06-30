@@ -11,7 +11,6 @@ import { useAppSelector } from '@/hooks/reduxHooks';
 const EventDetails = ({ title }: ITitle) => {
   const { t } = useTranslation(title);
   const language = useAppSelector((state) => state.language.arabic);
-
   const formatedFromDate = formatDate(t('from.date'), language);
   const formatedToDate = formatDate(t('to.date'), language);
 
@@ -28,10 +27,10 @@ const EventDetails = ({ title }: ITitle) => {
           <FaLocationDot />
           {t('location')}
         </li>
-        <li className='flex gap-6'>
+        {/* <li className='flex gap-6'>
           <IoIosPricetag />
           {t('price')}
-        </li>
+        </li> */}
         <li className='flex gap-6'>
           <FaChildReaching />
           {t('age')}

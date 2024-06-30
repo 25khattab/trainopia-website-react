@@ -7,7 +7,7 @@ interface Props {
 const TestomonialCard = ({ review }: Props) => {
   const { t } = useTranslation(`reviews`);
   return (
-    <div className='relative mx-5 flex h-full flex-col justify-center rounded-3xl bg-secondary px-8 py-16 md:p-16'>
+    <div className='relative mx-5 flex h-full flex-col justify-center rounded-3xl bg-accent px-8 py-16 md:p-16'>
       <LiaQuoteRightSolid size={50} className='absolute left-8 top-4' />
       <p className='text-xs md:text-base'>{t(`${review}.review`)}</p>
       <div className='py-5'>

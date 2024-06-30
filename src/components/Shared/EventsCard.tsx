@@ -21,7 +21,7 @@ const EventsCard = ({ title }: IProp) => {
   return (
     <Link
       to={`/events/${title}`}
-      className='grid-row-2 grid w-[80%] grid-cols-3 border-2 p-3 md:w-[35vw] md:auto-rows-fr md:grid-cols-2 md:p-6 lg:grid-cols-3 lg:grid-rows-2'
+      className='grid-row-2 grid w-[80%] grid-cols-3 border-2 border-accent p-3 md:w-[35vw] md:auto-rows-fr md:grid-cols-2 md:p-6 lg:grid-cols-3 lg:grid-rows-2'
     >
       <div className='col-span-auto relative mx-auto flex h-[70%] w-[80%] flex-col justify-center self-center rounded-lg border-4 border-accent p-2 text-center lg:h-[80%]'>
         <hr className='absolute left-1/4 top-0 h-3 w-1 -translate-y-3/4 bg-accent' />
@@ -33,11 +33,11 @@ const EventsCard = ({ title }: IProp) => {
         <div className='xlg:flex-row flex flex-col text-xs'>
           <div className='flex'>
             <CiStopwatch size={20} className='flex-shrink-0' />
-            <h3 className='font-bold text-accent'>{t('period')} </h3>
+            <h3 className='font-bold '>{t('period')} </h3>
           </div>
           <div className='xlg:mx-3 flex'>
             <CiLocationOn size={20} className='flex-shrink-0' />
-            <h3 className='font-bold text-accent'>{t(`location`)}</h3>
+            <h3 className='font-bold '>{t(`location`)}</h3>
           </div>
         </div>
         <h1 className='text-base font-bold sm:p-4 md:px-0 md:py-4 md:text-lg lg:text-2xl'>{t(`title`)}</h1>

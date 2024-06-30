@@ -19,10 +19,11 @@ import { toggleLanguage } from '@/state/Slices/language';
 import { useTranslation } from 'react-i18next';
 import { useTheme } from '@/state/context/theme-provider';
 import { Link } from 'react-router-dom';
-// import { events } from '@/locales/en';
 import { activities } from '@/locales/ar';
 import events from '@/locales/ar/events';
 import React from 'react';
+import { motion } from 'framer-motion';
+import useNavBarHeight from '@/hooks/useNavBarHeight';
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const dispatch = useAppDispatch();
@@ -30,21 +31,27 @@ const Navbar = () => {
   const { setTheme, theme } = useTheme();
   const eventKeys = Object.keys(events) as Array<keyof typeof events>;
   const activityKeys = Object.keys(activities) as Array<keyof typeof activities>;
+  const { isScrolled, navOpacity } = useNavBarHeight();
   const handleToggleLanguage = (language: boolean) => {
     dispatch(toggleLanguage());
     !language ? i18n.changeLanguage('ar') : i18n.changeLanguage('en');
   };
 
   return (
-    <nav className='relative flex h-[12vh] w-full items-center justify-between px-5  md:px-10'>
+    <motion.nav
+      style={{
+        background: theme === 'light' ? 'rgba(198, 239, 241,' + navOpacity + ')' : 'rgba(82, 47, 132,' + navOpacity + ')',
+      }}
+      className={`${isScrolled ? 'h-[6vh]' : 'h-[12vh]'} fixed top-0 z-50 flex w-full  items-center justify-between  px-5 font-mikhakBold font-bold duration-150  md:px-10`}
+    >
       <Link to='/'>
         <img
           src={`${theme == 'light' ? '/icons/logos/light/logoLight.png' : '/icons/logos/dark/logoDark.png'}`}
-          className='w-14 md:w-24'
+          className={`${isScrolled ? 'p-4' : ''} w-20  duration-700 md:w-24`}
         />
       </Link>
       <div className='hidden h-full md:flex md:text-sm lg:text-lg'>
-        <Link to='/' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4'>
+        <Link to='/' className='flex h-full items-center  hover:opacity-70 md:px-2 lg:px-4 '>
           {t('nav:menu:home')}
         </Link>
         <Link to='/aboutus' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4'>
@@ -89,13 +96,13 @@ const Navbar = () => {
         <Link to='/contactus' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4'>
           {t('nav:menu:contactus')}
         </Link>
-        <Link to='/images' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4'>
+        {/* <Link to='/images' className='flex h-full items-center hover:opacity-70 md:px-2 lg:px-4'>
           {t('nav:menu:images')}
-        </Link>
+        </Link> */}
       </div>
       <div className='flex items-center'>
         <div className='flex items-center'>
-          <div className='cursor-pointer'>
+          <div className='cursor-pointer rounded-full bg-accent p-1'>
             {theme === 'light' ? (
               <IoSunnyOutline onClick={() => setTheme('dark')} />
             ) : (
@@ -176,16 +183,16 @@ const Navbar = () => {
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuSeparator />
-              <DropdownMenuItem asChild>
+              {/* <DropdownMenuItem asChild>
                 <Link to='/images' className={`w-full cursor-pointer`}>
                   {t('nav:menu:images')}
                 </Link>
-              </DropdownMenuItem>
+              </DropdownMenuItem> */}
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
       </div>
-    </nav>
+    </motion.nav>
   );
 };
 
