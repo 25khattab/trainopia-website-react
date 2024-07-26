@@ -1,9 +1,9 @@
 {
   "achievements": [
-    { "value": 6500, "label": "Trainee" },
-    { "value": 152, "label": "Project" },
-    { "value": 7, "label": "Locations" },
-    { "value": 11, "label": "Partnership" },
-    { "value": 300, "label": "Camp" }
+    { "value": 6500, "label": "Trainees" },
+    { "value": 152, "label": "Projects" },
+    { "value": 7, "label": "Countries" },
+    { "value": 30, "label": "Partners" },
+    { "value": 300, "label": "Camps" }
   ]
 }
