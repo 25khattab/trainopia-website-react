@@ -1,9 +1,9 @@
 {
   "achievements": [
     { "value": 6500, "label": "متدرب" },
-    { "value": 152, "label": "مشروع " },
-    { "value": 7, "label": "مناطق " },
-    { "value": 11, "label": "شراكة" },
+    { "value": 152, "label": "برنامج " },
+    { "value": 7, "label": "دول" },
+    { "value": 30, "label": "شريك" },
     { "value": 300, "label": "مخيم " }
   ]
 }

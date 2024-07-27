@@ -23,7 +23,7 @@ const EventsCard = ({ title }: IProp) => {
       to={`/events/${title}`}
       className='grid-row-2 grid w-[80%] grid-cols-3 border-2 border-accent p-3 md:w-[35vw] md:auto-rows-fr md:grid-cols-2 md:p-6 lg:grid-cols-3 lg:grid-rows-2'
     >
-      <div className='col-span-auto relative mx-auto flex h-[70%] w-[80%] flex-col justify-center self-center rounded-lg border-4 border-accent p-2 text-center lg:h-[80%]'>
+      <div className='col-span-auto relative mx-auto flex flex-col justify-center self-center rounded-lg border-4 border-accent p-2 px-4 text-center lg:h-[80%]'>
         <hr className='absolute left-1/4 top-0 h-3 w-1 -translate-y-3/4 bg-accent' />
         <hr className='absolute right-1/4 top-0 h-3 w-1 -translate-y-3/4 bg-accent' />
         <h1 className='text-2xl lg:text-4xl'>{day}</h1>
