@@ -11,7 +11,7 @@ import mediaTracks from './activities/mediaTracks.json';
 import camps from './activities/camps.json';
 import reviews from './home/reviews.json';
 import contactus from './contactus/contactus.json';
-import trainopiaSumer from './events/trainopiaSumer.json';
+import yallacamp from './events/yallacamp.json';
 import summerProgrammin from './events/summerProgrammin.json';
 import champion from './events/champion.json';
 
@@ -29,7 +29,7 @@ export {
   camps,
   reviews,
   contactus,
-  trainopiaSumer,
+  yallacamp,
   summerProgrammin,
   champion,
 };
