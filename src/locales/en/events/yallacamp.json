@@ -1,0 +1,26 @@
+{
+  "title": "YALLA CAMP 11",
+  "image": "yallacamp.jpg",
+  "shortDes": "Experience the ultimate family camp in Egypt, renowned for its unique blend of entertainment and training in a warm, family-friendly atmosphere. Join us for the winter Yalla Camp in the enchanting city of Nuweiba, where adventure meets relaxation in a welcoming and positive environment among elite families.",
+  "details": {
+    "headLine": "Details",
+    "description": "Yalla Camp is a bi-annual family camp organized by the Trainopia team in one of Egypt's stunning coastal cities. Perfect for all family members and young people, it provides a safe and enjoyable environment, especially for girls. This eleventh season, Yalla Camp heads to the magical city of Nuweiba from January 30 to February 2, offering a comfortable and delightful stay with seamless transportation to and from Cairo. \n\nThe Trainopia team always selects the finest hotels and resorts for Yalla Camp trips. This year, we’ve chosen the Nuweiba Club Resort for the winter season, offering a Half Board stay (breakfast + dinner + beverages). \n\nAdult Training: Yalla Camp includes engaging training sessions for participants aged 17 and above. This season's theme focuses on forming and maintaining positive habits, featuring interactive activities, fun games, and exciting competitions. \n\nKids and Teens Training: This educational aspect of the camp is one of its most cherished features, allowing parents and children to bond with their peers and make new friends in a joyful atmosphere. The upcoming Yalla Camp season will focus on a robust educational material called Multiple Intelligences, using games, physical activities, and competitions to explore and guide children's different types of intelligence. \n\nExcursions: Every time the Trainopia team visits a new city, they ensure to explore its landmarks, tourist attractions, historical sites, or embark on fun safari and boat trips. \n\nEvening Gatherings: One of the most distinctive features of Yalla Camp trips is the evening gatherings, where participants come together after dinner to enjoy light competitions, socialize, and savor tea on the fire, hot potatoes, sweets, and other snacks."
+  },
+  "from": { "word": "From", "date": "1/30/2025" },
+  "to": { "word": "To", "date": "2/2/2025" },
+  "period": "Weekly during the summer",
+  "location": "Nuweiba Club Resort in Nuweiba",
+  "price": "",
+  "age": "Age: All family members and friends",
+  "goals": {
+    "headLine": "Goals",
+    "content": [
+      "Take a break from life's responsibilities and reflect on time and oneself.",
+      "Mend and reconnect relationships.",
+      "Enjoy a fun and educational experience in a warm family atmosphere.",
+      "Train children and teenagers on multiple intelligences, exploring their interests and talents.",
+      "Train participants on forming habits in a fun and engaging way filled with activities and games.",
+      "Experience living with different and diverse people and families."
+    ]
+  }
+}
